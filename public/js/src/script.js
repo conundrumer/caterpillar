@@ -11,6 +11,7 @@ function onTrackerSuccess() {
     // }, 1000);
     features.setTracker(tracker);
     setInterval(function() {
+        if (!tracker.getPositions()) return;
         console.log('mouth', features.getMouth());
         console.log('eyebrows', features.getEyebrows());
         console.log('tilt', features.getTilt());
