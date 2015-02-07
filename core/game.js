@@ -35,25 +35,27 @@ Player.prototype = {
     step: function(stride) {
         x = this.position.x + stride*Math.cos(this.heading);
         y = this.position.y + stride*Math.sin(this.heading);
-        x = (x+WIDTH)%WIDTH;
-        y = (y+HEIGHT)%HEIGHT;
+        _.values(players).forEach(function(other) {
+            if (this === other) return;
+            var distance = dist({x: x, y: y}, other.position);
+            if (distance < 2*PLAYER_RADIUS) {
+                var overlap = PLAYER_RADIUS - distance/2;
+                var dx = (other.position.x - x) * overlap / distance;
+                var dy = (other.position.y - y) * overlap / distance;
+                other.position.x += dx;
+                other.position.y += dy;
+                other.position.x = Math.max(PLAYER_RADIUS, Math.min(WIDTH-PLAYER_RADIUS,other.position.x));
+                other.position.y = Math.max(PLAYER_RADIUS, Math.min(HEIGHT-PLAYER_RADIUS, other.position.y));
+                x -= dx;
+                y -= dy;
+            }
+        }.bind(this));
+        x = Math.max(PLAYER_RADIUS, Math.min(WIDTH-PLAYER_RADIUS,x));
+        y = Math.max(PLAYER_RADIUS, Math.min(HEIGHT-PLAYER_RADIUS, y));
         this.position = {
             x: x,
             y: y
         }
-        _.values(players).forEach(function(other) {
-            if (this === other) return;
-            var distance = dist(this.position, other.position);
-            if (distance < 2*PLAYER_RADIUS) {
-                var overlap = PLAYER_RADIUS - distance/2;
-                var dx = (other.position.x - this.position.x) * overlap / distance;
-                var dy = (other.position.y - this.position.y) * overlap / distance;
-                other.position.x += dx;
-                other.position.y += dy;
-                this.position.x -= dx;
-                this.position.y -= dy;
-            }
-        }.bind(this));
     },
     eat: function(amount) {
         this.food += amount;
