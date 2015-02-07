@@ -17,9 +17,23 @@ var Player = React.createClass({
             transition: 'transform 0.1s linear',
             webkitTransition: '-webkit-transform 0.1s linear',
         }
+        var c1 = {
+            position: 'absolute',
+            top: -8,
+            left: 0,
+            width: 175,
+            height: 55
+        }
+        var c2 = {
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            borderRadius: 20
+        }
         return (
-            <div className='caterpillar' style={style}>
-                <img className='caterpillar-face' style={{borderRadius: 20}}src={this.props.img} />
+            <div style={style}>
+                <img style={c1} src='../../images/caterpillar-l.png' />
+                <img style={c2} src={this.props.img} />
             </div>
         );
     }
