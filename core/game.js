@@ -8,6 +8,7 @@ function Player() {
         y: Math.random() * HEIGHT
     }
     this.img = null;
+    this.food = 0;
 }
 
 Player.prototype = {
@@ -23,10 +24,15 @@ Player.prototype = {
             x: x,
             y: y
         }
+    },
+    eat: function(amount) {
+        this.food += amount;
     }
 }
 
 var players = {};
+
+var board = [];
 
 var game = {
     connect: function(uuid) {
@@ -40,6 +46,13 @@ var game = {
     },
     move: function(uuid, stride) {
         players[uuid].step(stride);
+    },
+    eat: function(uuid, intensity) {
+        var amount = intensity;
+        if (true) {
+            players[uuid].eat(amount);
+            // do something with board;
+        }
     },
     setImg: function(img) {
         players[uuid].img = img;

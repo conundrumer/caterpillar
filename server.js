@@ -35,7 +35,7 @@ io.on('connection', function(socket) {
         game.connect(uuid);
         var i = setInterval(function() {
             var player = game.getPlayer(uuid);
-            console.log('uuid', player.position, player.heading);
+            console.log('uuid', player.food, player.position, player.heading);
         }, 1000)
 
         socket.on('gesture', function(data) {
@@ -46,6 +46,8 @@ io.on('connection', function(socket) {
             if (stride > 0) {
                 game.rotate(uuid, rotation);
             }
+            var eatAmount = data.mouth;
+            game.eat(uuid, eatAmount);
         });
         socket.on('face_img', function(data) {
             // console.log('received face_img', data.length)
