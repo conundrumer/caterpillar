@@ -51,7 +51,9 @@ function onTrackerSuccess() {
         socket.emit('face_img', data);
     });
 
-
+    socket.on('state', function(state){
+        console.log('received state');
+    });
 }
 
 function onTrackerFail(message) {

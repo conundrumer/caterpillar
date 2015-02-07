@@ -101,6 +101,9 @@ var game = {
     getPlayer: function(uuid) {
         return players[uuid];
     },
+    getPlayers: function() {
+        return players;
+    },
     getHoles: function() {
         return holes;
     }

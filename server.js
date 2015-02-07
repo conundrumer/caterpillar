@@ -38,10 +38,14 @@ io.on('connection', function(socket) {
         console.log('connected', uuid);
         game.connect(uuid);
         var i = setInterval(function() {
-            var player = game.getPlayer(uuid);
-            console.log(player.food, player.position, player.heading);
-            console.log('holes', game.getHoles());
-        }, 1000)
+            // var player = game.getPlayer(uuid);
+            // console.log(player.food, player.position, player.heading);
+            // console.log('holes', game.getHoles());
+            socket.emit('state', {
+                players: game.getPlayers(),
+                holes: game.getHoles()
+            })
+        }, 100)
 
         socket.on('gesture', function(data) {
             // console.log ('received gesture, tilt', data.tilt)
