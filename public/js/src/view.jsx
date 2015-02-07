@@ -3,16 +3,26 @@ var _ = require('underscore');
 
 var Player = React.createClass({
     render: function() {
+        var style = {
+            position: 'absolute',
+            top: this.props.position.y,
+            left: this.props.position.x
+        }
         return (
-            <div>{JSON.stringify(this.props)}</div>
+            <div style={style}>PLAYER</div>
         );
     }
 })
 
 var Hole = React.createClass({
     render: function() {
+        var style = {
+            position: 'absolute',
+            top: this.props.position.y,
+            left: this.props.position.x
+        }
         return (
-            <div>{JSON.stringify(this.props)}</div>
+            <div style={style}>HOLE</div>
         );
     }
 })
