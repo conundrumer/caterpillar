@@ -7,8 +7,8 @@ var Player = React.createClass({
         var transformStyle = 'translateX('+this.props.position.x+'px) translateY('+this.props.position.y+'px) rotate('+rotation+'rad)';
         var style = {
             position: 'absolute',
-            top: 0,
-            left: 0,
+            top: -20, // height: 40
+            left: -15, // width: 30
             transform: transformStyle,
             webkitTransform: transformStyle
         }

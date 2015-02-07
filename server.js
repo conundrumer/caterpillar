@@ -29,8 +29,8 @@ app.get('/admin', function(req, res) {
 
 var io = require('socket.io')(server);
 
-var TILT_FACTOR = 0.4;
-var STRIDE_FACTOR = 70;
+var TILT_FACTOR = 0.3;
+var STRIDE_FACTOR = 90;
 var EAT_FACTOR = 30;
 
 io.on('connection', function(socket) {
