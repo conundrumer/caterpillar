@@ -1,5 +1,13 @@
 var WIDTH = 500;
 var HEIGHT = 500;
+// var SUBDIVISIONS = 10;
+var HOLE_MAX_SIZE = 11;
+
+function dist(p1, p2) {
+    var x = p1.x - p2.x;
+    var y = p1.y - p2.y;
+    return Math.sqrt(x*x+y*y);
+}
 
 function Player() {
     this.heading = Math.random() * 2 * Math.PI;
@@ -30,9 +38,40 @@ Player.prototype = {
     }
 }
 
+function Hole(position) {
+    this.position = position;
+    this.size = 0;
+}
+Hole.prototype.enlargen = function(amount) {
+    var oldSize = this.size;
+    this.size = Math.min(HOLE_MAX_SIZE, this.size + amount);
+    return this.size - oldSize;
+}
+
 var players = {};
 
-var board = [];
+var holes = [];
+
+function getTouchingHole(position) {
+    return holes.filter(function(hole) {
+        return dist(position, hole.position) < hole.size;
+    })[0];
+}
+
+function getHole(position) {
+    // var row = Math.floor(position.y / HEIGHT * SUBDIVISIONS);
+    // var col = Math.floor(position.x / WIDTH * SUBDIVISIONS);
+    return getTouchingHole(position);
+}
+
+function makeHole(position) {
+    var hole = new Hole(position);
+    holes.push(hole);
+
+    // var row = Math.floor(position.y / HEIGHT * SUBDIVISIONS);
+    // var col = Math.floor(position.x / WIDTH * SUBDIVISIONS);
+    return hole;
+}
 
 var game = {
     connect: function(uuid) {
@@ -48,17 +87,22 @@ var game = {
         players[uuid].step(stride);
     },
     eat: function(uuid, intensity) {
+        var player = players[uuid];
         var amount = intensity;
-        if (true) {
-            players[uuid].eat(amount);
-            // do something with board;
+        var hole = getHole(player.position);
+        if (!hole) {
+            hole = makeHole(player.position);
         }
+        players[uuid].eat(hole.enlargen(amount));
     },
     setImg: function(img) {
         players[uuid].img = img;
     },
     getPlayer: function(uuid) {
         return players[uuid];
+    },
+    getHoles: function() {
+        return holes;
     }
 }
 

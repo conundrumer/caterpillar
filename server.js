@@ -29,25 +29,32 @@ app.get('/admin', function(req, res) {
 
 var io = require('socket.io')(server);
 
+var TILT_FACTOR = 0.25;
+var STRIDE_FACTOR = 40;
+var EAT_FACTOR = 30;
+
 io.on('connection', function(socket) {
     socket.on('init', function(uuid) {
         console.log('connected', uuid);
         game.connect(uuid);
         var i = setInterval(function() {
             var player = game.getPlayer(uuid);
-            console.log('uuid', player.food, player.position, player.heading);
+            console.log(player.food, player.position, player.heading);
+            console.log('holes', game.getHoles());
         }, 1000)
 
         socket.on('gesture', function(data) {
             // console.log ('received gesture, tilt', data.tilt)
-            var rotation = data.tilt / 4;
-            var stride = data.eyebrows * 40;
+            var rotation = TILT_FACTOR * data.tilt;
+            var stride = STRIDE_FACTOR * data.eyebrows;
             game.move(uuid, stride);
             if (stride > 0) {
                 game.rotate(uuid, rotation);
             }
             var eatAmount = data.mouth;
-            game.eat(uuid, eatAmount);
+            if (eatAmount > 0) {
+                game.eat(uuid, EAT_FACTOR*eatAmount);
+            }
         });
         socket.on('face_img', function(data) {
             // console.log('received face_img', data.length)
