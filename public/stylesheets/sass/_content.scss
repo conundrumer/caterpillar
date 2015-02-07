@@ -35,8 +35,32 @@
 #go-btn {
     border-style: none;
     background-color: #fff;
-    padding: 5px 8px;
+    background: url('../../images/goddamn.png') no-repeat;
+    background-size: contain;
+    width: 220px;// 197px;
+    height: 135px; //121px;
+    // padding: 5px 8px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
     &:hover {
         cursor: pointer;
+    }
+    // z-index: 3;
+}
+
+#go-shadow {
+    @include transition(all 0.2s ease-in-out 0);
+    // opacity: 0.9;
+    position: absolute;
+    background: url('../../images/goshadow.png') no-repeat;
+    background-size: contain;
+    left: 255px;
+    top: 230px;
+    width: 220px;// 197px;
+    height: 135px; //121px;
+    z-index: 3;
+    &:hover {
+        @include transform(scaleX(1.1) scaleY(1.1) translateX(10px) rotate(5deg));
     }
 }
