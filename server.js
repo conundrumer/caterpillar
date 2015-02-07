@@ -30,10 +30,17 @@ app.get('/admin', function(req, res) {
 var io = require('socket.io')(server);
 
 io.on('connection', function(socket) {
-    socket.on('gesture', function(data) {
-        console.log ('received gesture', data.id)
-    });
-    socket.on('face_img', function(data) {
-        console.log('received face_img', data.img.length)
-    });
+    socket.on('init', function(uuid) {
+        console.log('connected', uuid);
+
+        socket.on('gesture', function(data) {
+            console.log ('received gesture, tilt', data.tilt)
+        });
+        socket.on('face_img', function(data) {
+            console.log('received face_img', data.length)
+        });
+        socket.on('disconnect', function() {
+            console.log('disconencted', uuid);
+        })
+    })
 });

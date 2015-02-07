@@ -23,6 +23,7 @@ function onTrackerSuccess() {
         console.log('game session connected');
         // this.sync = 0;
         // this.trigger(this.sync);
+        socket.emit('init', uuid);
     });
     socket.on('connect_error', function(err) {
         console.error(err);
@@ -43,17 +44,11 @@ function onTrackerSuccess() {
         // if (data.mouth > 0) {
         //     console.log('omnomnom', data.mouth);
         // }
-        socket.emit('gesture', {
-            id: uuid,
-            gesture: data
-        });
+        socket.emit('gesture', data);
     });
     faceCapture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
         // console.log('img', data.length)
-        socket.emit('face_img', {
-            id: uuid,
-            img: data
-        });
+        socket.emit('face_img', data);
     });
 
 
