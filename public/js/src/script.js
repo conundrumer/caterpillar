@@ -21,17 +21,22 @@ function onTrackerSuccess() {
     //     console.log(tracker.getScore())
     // }, 1000);
     features.setTracker(tracker);
+    faceCapture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
+        // console.log('img', data.length)
+        updateCaterpillarFace(data);
+    });
 }
 
 function onTrackerFail(message) {
     console.log('failed to get tracking!', message);
 }
 
+function updateCaterpillarFace(data) {
+
+}
+
 function makeCaterpillar() {
-	canvas = $("#game-canvas")[0];
-	var ctx = canvas.getContext("2d");
-	ctx.font = "30px Arial";
-	ctx.fillText("Nice to meet you.",10,50);
+	$("#go-btn").after("<img src='http://media.giphy.com/media/LoKOhRffkOo6s/giphy-facebook_s.jpg'/>");
 	$("#go-btn")[0].hidden = false;
 }
 
@@ -42,7 +47,6 @@ window.onload = function() {
     	console.log(data);
     }
     tracker.init(onTrackerSuccess, onTrackerFail);
-
 };
 
 store.onChange = function(data) {
@@ -51,11 +55,9 @@ store.onChange = function(data) {
 
 function loadGamePage(callback) {
 	$("#go-btn").remove();
-	canvas = $("#game-canvas")[0];
-	var ctx = canvas.getContext("2d");
-	ctx.clearRect (0, 0, canvas.width, canvas.height);
+	$("#game-canvas").remove();
 
-	$('#game-canvas').after("<div id='react-container'></div>");
+	// $('#canvas-container').append("<div id='react-container'></div>");
 	callback();
 };
 
@@ -77,27 +79,43 @@ function startGame() {
 	        console.log('disconnected');
 	    });
 		gesture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
-            wiggled += data.eyebrows;
-            $("#wiggle-bar")[0].value = wiggled;
+            // wiggled += data.eyebrows;
+            // $("#wiggle-bar")[0].value = wiggled;
             wiggleProp = Math.min(Math.max(data.eyebrows*10,0),1);
             wiggleColor = getColorForPercentage(wiggleProp);
             wiggleColor = rgbToHex(wiggleColor[0], wiggleColor[1], wiggleColor[2]);
             $("#wiggle").css("background-color", wiggleColor);	
 
-            eated += data.mouth;
-            $("#eated-bar")[0].value = eated;
+            // eated += data.mouth;
+            // $("#eated-bar")[0].value = eated;
             eatedProp = Math.min(Math.max(data.mouth*10,0),1);
             eatedColor = getColorForPercentage(eatedProp);
             eatedColor = rgbToHex(eatedColor[0], eatedColor[1], eatedColor[2]);
             $("#eated").css("background-color", eatedColor);	
 
+
+            if (data.tilt >= 0) {
+            	leftProp = data.tilt;
+            	leftColor = getColorForPercentage(leftProp)
+            	leftColor = rgbToHex(leftColor[0], leftColor[1], leftColor[2]);
+            	$("#left").css("background-color", leftColor);
+            }
+
+            if (data.tilt <= 0) {
+            	rightProp = Math.abs(data.tilt);
+            	rightColor = getColorForPercentage(rightProp)
+            	rightColor = rgbToHex(rightColor[0], rightColor[1], rightColor[2]);
+            	$("#right").css("background-color", rightColor);
+            }
+            // console.log(data.tilt);
+
 	        socket.emit('gesture', data);
 	    });
 
-	    faceCapture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
+	    faceCapture.cb = function(data) {
 	        // console.log('img', data.length)
 	        socket.emit('face_img', data);
-	    });
+	    };
 
 	    socket.on('state', function(state){
 	        view.render(state,document.getElementById('react-container'));
