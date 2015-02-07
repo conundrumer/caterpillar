@@ -1,3 +1,5 @@
+_ = require('underscore');
+
 var WIDTH = 500;
 var HEIGHT = 500;
 // var SUBDIVISIONS = 10;
@@ -7,6 +9,8 @@ var FOOD_SIZE = 11;
 var DEFAULT_FOOD_AMOUNT = 4;
 var NUM_FOOD = 4;
 var FOOD_RADIUS = 20;
+
+var PLAYER_RADIUS = 20;
 
 function dist(p1, p2) {
     var x = p1.x - p2.x;
@@ -37,6 +41,19 @@ Player.prototype = {
             x: x,
             y: y
         }
+        _.values(players).forEach(function(other) {
+            if (this === other) return;
+            var distance = dist(this.position, other.position);
+            if (distance < 2*PLAYER_RADIUS) {
+                var overlap = PLAYER_RADIUS - distance/2;
+                var dx = (other.position.x - this.position.x) * overlap / distance;
+                var dy = (other.position.y - this.position.y) * overlap / distance;
+                other.position.x += dx;
+                other.position.y += dy;
+                this.position.x -= dx;
+                this.position.y -= dy;
+            }
+        }.bind(this));
     },
     eat: function(amount) {
         this.food += amount;
