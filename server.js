@@ -43,7 +43,8 @@ io.on('connection', function(socket) {
             // console.log('holes', game.getHoles());
             socket.emit('state', {
                 players: game.getPlayers(),
-                holes: game.getHoles()
+                holes: game.getHoles(),
+                foods: game.getFoods()
             })
         }, 100)
 

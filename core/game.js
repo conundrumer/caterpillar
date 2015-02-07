@@ -3,6 +3,11 @@ var HEIGHT = 500;
 // var SUBDIVISIONS = 10;
 var HOLE_MAX_SIZE = 11;
 
+var FOOD_SIZE = 11;
+var DEFAULT_FOOD_AMOUNT = 4;
+var NUM_FOOD = 4;
+var FOOD_RADIUS = 20;
+
 function dist(p1, p2) {
     var x = p1.x - p2.x;
     var y = p1.y - p2.y;
@@ -48,13 +53,37 @@ Hole.prototype.enlargen = function(amount) {
     return this.size - oldSize;
 }
 
+function Food() {
+    this.position = {
+        x: WIDTH * Math.random(),
+        y: HEIGHT * Math.random()
+    }
+    this.size = DEFAULT_FOOD_AMOUNT;
+}
+
+Food.prototype.getConsumed = function(amount) {
+    var oldSize = this.size;
+    this.size = Math.max(0, this.size - amount);
+    return oldSize - this.size;
+}
+
 var players = {};
 
 var holes = [];
+var foods = [];
+for (var i = 0; i < NUM_FOOD; i++) {
+    foods.push(new Food());
+}
 
 function getTouchingHole(position) {
     return holes.filter(function(hole) {
         return dist(position, hole.position) < hole.size;
+    })[0];
+}
+
+function getFood(position) {
+    return foods.filter(function(food) {
+        return dist(position, food.position) < FOOD_RADIUS;
     })[0];
 }
 
@@ -89,11 +118,22 @@ var game = {
     eat: function(uuid, intensity) {
         var player = players[uuid];
         var amount = intensity;
-        var hole = getHole(player.position);
-        if (!hole) {
-            hole = makeHole(player.position);
+        // var hole = getHole(player.position);
+        // if (!hole) {
+        //     hole = makeHole(player.position);
+        // }
+        // players[uuid].eat(hole.enlargen(amount));
+        var food = getFood(player.position);
+        if (food) {
+            players[uuid].eat(food.getConsumed(amount));
+            if (food.size === 0) {
+                var index = foods.indexOf(food);
+                if (index > -1) {
+                    foods.splice(index, 1);
+                    foods.push(new Food());
+                }
+            }
         }
-        players[uuid].eat(hole.enlargen(amount));
     },
     setImg: function(uuid, img) {
         players[uuid].img = img;
@@ -106,6 +146,9 @@ var game = {
     },
     getHoles: function() {
         return holes;
+    },
+    getFoods: function() {
+        return foods;
     }
 }
 

@@ -33,6 +33,19 @@ var Hole = React.createClass({
     }
 })
 
+var Food = React.createClass({
+    render: function() {
+        var style = {
+            position: 'absolute',
+            top: this.props.position.y,
+            left: this.props.position.x
+        }
+        return (
+            <div style={style}>+</div>
+        );
+    }
+})
+
 var App = React.createClass({
     render: function() {
         return (
@@ -53,6 +66,11 @@ var App = React.createClass({
                         return <Hole key={i} position={hole.position} size={hole.size} />
                     })
                 }
+                {
+                    this.props.foods.map(function(food, i) {
+                        return <Food key={i} position={food.position} size={food.size} />
+                    })
+                }
             </div>
         );
     }
@@ -60,6 +78,6 @@ var App = React.createClass({
 
 module.exports = {
     render: function(props, target) {
-        React.render(<App players={props.players} holes={props.holes}/>, target);
+        React.render(<App players={props.players} holes={props.holes} foods={props.foods}/>, target);
     }
 }
