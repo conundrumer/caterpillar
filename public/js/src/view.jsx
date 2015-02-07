@@ -15,8 +15,8 @@ var Player = React.createClass({
             webkitTransition: '-webkit-transform 0.1s linear',
         }
         return (
-            <div style={style}>
-                <img style={{borderRadius: 20}}src={this.props.img} />
+            <div className='caterpillar' style={style}>
+                <img className='caterpillar-face' style={{borderRadius: 20}}src={this.props.img} />
             </div>
         );
     }
