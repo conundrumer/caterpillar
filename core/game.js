@@ -30,7 +30,7 @@ function Player() {
 
 Player.prototype = {
     turn: function (rotation) {
-        this.heading = (this.heading + rotation)%(2*Math.PI);
+        this.heading = this.heading + rotation;
     },
     step: function(stride) {
         x = this.position.x + stride*Math.cos(this.heading);
