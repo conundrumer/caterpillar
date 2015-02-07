@@ -18,6 +18,7 @@
   "homepage": "https://github.com/conundrumer/caterpillar",
   "dependencies": {
     "browserify": "^8.1.3",
+    "clmtrackr": "git+ssh://git@github.com:radmanovi4/clmtrackr.git#dev",
     "express": "^4.11.2",
     "gulp": "^3.8.10",
     "gulp-ruby-sass": "^0.7.1",

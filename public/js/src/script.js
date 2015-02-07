@@ -1,10 +1,23 @@
 var io = require('socket.io-client');
 var store = require('./store');
+var tracker = require('./tracker');
+
+function onTrackerSuccess() {
+    console.log('got tracking!');
+}
+
+function onTrackerFail(message) {
+    console.log('failed to get tracking!', message);
+}
 
 window.onload = function() {
     console.log('hey there!!');
     $("#dummy-webcam").on('click', makeCaterpillar);
     $("#go-btn").on('click', startGame);
+    tracker.onUpdate = function(data) {
+    	console.log(data);
+    }
+    tracker.init(onTrackerSuccess, onTrackerFail);
 };
 
 store.onChange = function(data) {
@@ -29,6 +42,3 @@ function loadGamePage(data) {
 	$(".intro-view").remove();
 	$("#game-view")[0].hidden = false;
 };
-
-
-
