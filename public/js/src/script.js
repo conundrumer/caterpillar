@@ -15,25 +15,26 @@ var wiggled = 0;
 function flasher(data) {
     var wiggleProp = Math.min(Math.max(data.eyebrows*10,0),1);
     var wiggleColor = getColorForPercentage(wiggleProp);
-    wiggleColor = rgbToHex(wiggleColor[0], wiggleColor[1], wiggleColor[2]);
+    wiggleColor = "rgba(" + wiggleColor.join(",") + ",0.5)";
     $("#wiggle").css("background-color", wiggleColor);
+
 
     var eatedProp = Math.min(Math.max(data.mouth*10,0),1);
     var eatedColor = getColorForPercentage(eatedProp);
-    eatedColor = rgbToHex(eatedColor[0], eatedColor[1], eatedColor[2]);
+    eatedColor = "rgba(" + eatedColor.join(",") + ",0.5)";
     $("#eated").css("background-color", eatedColor);
 
     if (data.tilt >= 0) {
         var leftProp = data.tilt;
-        var leftColor = getColorForPercentage(leftProp)
-        leftColor = rgbToHex(leftColor[0], leftColor[1], leftColor[2]);
+        var leftColor = getColorForPercentage(leftProp);
+        leftColor = "rgba(" + leftColor.join(",") + ",0.5)";
         $("#left").css("background-color", leftColor);
     }
 
     if (data.tilt <= 0) {
         var rightProp = Math.abs(data.tilt);
-        var rightColor = getColorForPercentage(rightProp)
-        rightColor = rgbToHex(rightColor[0], rightColor[1], rightColor[2]);
+        var rightColor = getColorForPercentage(rightProp);
+        rightColor = "rgba(" + rightColor.join(",") + ",0.5)";
         $("#right").css("background-color", rightColor);
     }
 }
@@ -72,6 +73,9 @@ window.onload = function() {
         console.log(data);
     }
     tracker.init(onTrackerSuccess, onTrackerFail);
+    $(".move").on('click', function() {
+        alert("Stop clicking me you dingaling and use your face (and brain. if you had one.)")
+    });
 };
 
 store.onChange = function(data) {
@@ -131,11 +135,11 @@ function rgbToHex(r, g, b) {
 }
 
 var percentColors = [
-    { pct: 0.0, color: { r: 252, g: 143, b: 104 } },
-    { pct: 0.25, color: { r: 253, g: 107, b: 78 } },
-    { pct: 0.5, color: { r: 254, g: 72, b: 52 } },
-    { pct: 0.75, color: { r: 254, g: 36, b: 26 } },
-    { pct: 1.0, color: { r: 255, g: 0, b: 0 } } ];
+    { pct: 0.0, color: { r: 255, g: 255, b: 255 } },
+    { pct: 0.25, color: { r: 191, g: 242, b: 255 } },
+    { pct: 0.5, color: { r: 128, g: 230, b: 255 } },
+    { pct: 0.75, color: { r: 64, g: 217, b: 255 } },
+    { pct: 1.0, color: { r: 0, g: 204, b: 255 } } ];
 
 var getColorForPercentage = function(pct) {
     for (var i = 1; i < percentColors.length - 1; i++) {
