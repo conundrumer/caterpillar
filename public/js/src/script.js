@@ -3,8 +3,14 @@ var store = require('./store');
 var tracker = require('./tracker');
 var features = require ('./features');
 var gesture = require('./gesture');
+var tween = require('./tween');
+// var paper = require('./paper-core.min.js');
+// var movement = require('./movement');
 
 var GESTURE_SAMPLE_PERIOD = 200;
+
+var eated = 0;
+var wiggled = 0;
 
 function onTrackerSuccess() {
     console.log('got tracking!');
@@ -18,10 +24,16 @@ function onTrackerSuccess() {
         // console.log(data)
         // console.log(tracker.getScore());
         if (data.eyebrows > 0) {
-            console.log ('eyebrow wiggle', data.eyebrows);
+            // console.log ('eyebrow wiggle', data.eyebrows);
+            wiggled += data.eyebrows;
+            // console.log('wiggled', wiggled);
+            $("#wiggle-bar")[0].value = wiggled;
         }
         if (data.mouth > 0) {
-            console.log('omnomnom', data.mouth);
+            // console.log('omnomnom', data.mouth);
+            eated += data.mouth;
+            // console.log('eated', eated);
+            $("#eated-bar")[0].value = eated;
         }
     });
 }
@@ -45,10 +57,15 @@ window.onload = function() {
     	console.log(data);
     }
     tracker.init(onTrackerSuccess, onTrackerFail);
+
 };
 
 store.onChange = function(data) {
-    console.log(data[0].id, data[0].position, data[0].heading);
+    // console.log(data[0].id, data[0].position, data[0].heading);
+    // sperm.draw();
+	// canvas = $("#game-canvas")[0];
+	// var ctx = canvas.getContext("2d");
+	// ctx.clearRect (0, 0, canvas.width, canvas.height);
 };
 
 function startGame() {
@@ -60,5 +77,5 @@ function loadGamePage() {
 	$("#go-btn").remove();
 	canvas = $("#game-canvas")[0];
 	var ctx = canvas.getContext("2d");
-	ctx.clearRect ( 0 , 0 , canvas.width, canvas.height );
+	ctx.clearRect (0, 0, canvas.width, canvas.height);
 };
