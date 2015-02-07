@@ -1,6 +1,8 @@
 var NOSE = {
     LEFT: 35,
-    RIGHT: 39
+    RIGHT: 39,
+    TOP: 33,
+    BOTTOM: 37
 }
 var MOUTH = {
     TOP: 60,
@@ -13,6 +15,11 @@ var EYEBROW = {
 var EYE = {
     LEFT: 25,
     RIGHT: 30
+}
+var JAW = {
+    LEFT: 0,
+    RIGHT: 14,
+    BOTTOM: 7
 }
 
 function dist(p1, p2) {
@@ -56,6 +63,23 @@ var features = {
     getEyesWidth: function() {
         var pos = this.tracker.getPositions();
         return dist(pos[EYE.LEFT], pos[EYE.RIGHT]);
+    },
+    getBoundingBox: function() {
+        var pos = this.tracker.getPositions();
+        var middleJaw = [
+            (pos[JAW.LEFT][0] + pos[JAW.RIGHT][0])/2,
+            (pos[JAW.LEFT][1] + pos[JAW.RIGHT][1])/2
+        ];
+        var center = [
+            (3*middleJaw[0] + pos[JAW.BOTTOM][0])/4,
+            (3*middleJaw[1] + pos[JAW.BOTTOM][1])/4
+        ]
+        var width = dist(pos[JAW.LEFT], pos[JAW.RIGHT])
+        return {
+            center: center,
+            width: width,
+            tilt: this.getTilt()
+        }
     }
 }
 
