@@ -12,18 +12,51 @@ var GESTURE_SAMPLE_PERIOD = 200;
 var eated = 0;
 var wiggled = 0;
 
+function flasher(data) {
+    // wiggled += data.eyebrows;
+    // $("#wiggle-bar")[0].value = wiggled;
+    wiggleProp = Math.min(Math.max(data.eyebrows*10,0),1);
+    wiggleColor = getColorForPercentage(wiggleProp);
+    wiggleColor = rgbToHex(wiggleColor[0], wiggleColor[1], wiggleColor[2]);
+    $("#wiggle").css("background-color", wiggleColor);  
+
+    // eated += data.mouth;
+    // $("#eated-bar")[0].value = eated;
+    eatedProp = Math.min(Math.max(data.mouth*10,0),1);
+    eatedColor = getColorForPercentage(eatedProp);
+    eatedColor = rgbToHex(eatedColor[0], eatedColor[1], eatedColor[2]);
+    $("#eated").css("background-color", eatedColor);    
+
+    if (data.tilt >= 0) {
+        leftProp = data.tilt;
+        leftColor = getColorForPercentage(leftProp)
+        leftColor = rgbToHex(leftColor[0], leftColor[1], leftColor[2]);
+        $("#left").css("background-color", leftColor);
+    }
+
+    if (data.tilt <= 0) {
+        rightProp = Math.abs(data.tilt);
+        rightColor = getColorForPercentage(rightProp)
+        rightColor = rgbToHex(rightColor[0], rightColor[1], rightColor[2]);
+        $("#right").css("background-color", rightColor);
+    }
+}
+
 function onTrackerSuccess() {
     // var uuid = generateUUID();
     console.log('got tracking!');
-    makeCaterpillar();
+    $("#go-btn")[0].hidden = false;
     // setTimeout(function() {
     //     console.log(tracker.getPositions())
     //     console.log(tracker.getScore())
     // }, 1000);
     features.setTracker(tracker);
     faceCapture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
-        // console.log('img', data.length)
         updateCaterpillarFace(data);
+    });
+
+    gesture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
+        flasher(data);
     });
 }
 
@@ -32,19 +65,20 @@ function onTrackerFail(message) {
 }
 
 function updateCaterpillarFace(data) {
-
-}
-
-function makeCaterpillar() {
-	$("#go-btn").after("<img src='http://media.giphy.com/media/LoKOhRffkOo6s/giphy-facebook_s.jpg'/>");
-	$("#go-btn")[0].hidden = false;
+    var props = {
+        heading: Math.PI,
+        position: {x:300, y:300},
+        img: data,
+        size: 3
+    };
+    view.renderPlayer(props, document.getElementById('react-container'));
 }
 
 window.onload = function() {
     console.log('hey there!!');
     $("#go-btn").on('click', startGame);
     tracker.onUpdate = function(data) {
-    	console.log(data);
+        console.log(data);
     }
     tracker.init(onTrackerSuccess, onTrackerFail);
 };
@@ -54,73 +88,44 @@ store.onChange = function(data) {
 };
 
 function loadGamePage(callback) {
-	$("#go-btn").remove();
-	$("#game-canvas").remove();
+    $("#go-btn").remove();
+    $("#game-canvas").remove();
 
-	// $('#canvas-container').append("<div id='react-container'></div>");
-	callback();
+    // $('#canvas-container').append("<div id='react-container'></div>");
+    callback();
 };
 
 function startGame() {
-	loadGamePage(function() {
-		var uuid = generateUUID();
-		var socket = io.connect();
-	    console.log('connecting');
-	    socket.on('connect', function() {
-	        console.log('game session connected');
-	        // this.sync = 0;
-	        // this.trigger(this.sync);
-	        socket.emit('init', uuid);
-	    });
-	    socket.on('connect_error', function(err) {
-	        console.error(err);
-	    });
-	    socket.on('disconnect', function() {
-	        console.log('disconnected');
-	    });
-		gesture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
-            // wiggled += data.eyebrows;
-            // $("#wiggle-bar")[0].value = wiggled;
-            wiggleProp = Math.min(Math.max(data.eyebrows*10,0),1);
-            wiggleColor = getColorForPercentage(wiggleProp);
-            wiggleColor = rgbToHex(wiggleColor[0], wiggleColor[1], wiggleColor[2]);
-            $("#wiggle").css("background-color", wiggleColor);	
+    loadGamePage(function() {
+        var uuid = generateUUID();
+        var socket = io.connect();
+        console.log('connecting');
+        socket.on('connect', function() {
+            console.log('game session connected');
+            // this.sync = 0;
+            // this.trigger(this.sync);
+            socket.emit('init', uuid);
+        });
+        socket.on('connect_error', function(err) {
+            console.error(err);
+        });
+        socket.on('disconnect', function() {
+            console.log('disconnected');
+        });
+        gesture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
+            flasher(data);
+            socket.emit('gesture', data);
+        });
 
-            // eated += data.mouth;
-            // $("#eated-bar")[0].value = eated;
-            eatedProp = Math.min(Math.max(data.mouth*10,0),1);
-            eatedColor = getColorForPercentage(eatedProp);
-            eatedColor = rgbToHex(eatedColor[0], eatedColor[1], eatedColor[2]);
-            $("#eated").css("background-color", eatedColor);	
+        faceCapture.cb = function(data) {
+            // console.log('img', data.length)
+            socket.emit('face_img', data);
+        };
 
-
-            if (data.tilt >= 0) {
-            	leftProp = data.tilt;
-            	leftColor = getColorForPercentage(leftProp)
-            	leftColor = rgbToHex(leftColor[0], leftColor[1], leftColor[2]);
-            	$("#left").css("background-color", leftColor);
-            }
-
-            if (data.tilt <= 0) {
-            	rightProp = Math.abs(data.tilt);
-            	rightColor = getColorForPercentage(rightProp)
-            	rightColor = rgbToHex(rightColor[0], rightColor[1], rightColor[2]);
-            	$("#right").css("background-color", rightColor);
-            }
-            // console.log(data.tilt);
-
-	        socket.emit('gesture', data);
-	    });
-
-	    faceCapture.cb = function(data) {
-	        // console.log('img', data.length)
-	        socket.emit('face_img', data);
-	    };
-
-	    socket.on('state', function(state){
-	        view.render(state,document.getElementById('react-container'));
-	    });
-	});
+        socket.on('state', function(state){
+            view.render(state,document.getElementById('react-container'));
+        });
+    });
 };
 
 function componentToHex(c) {
