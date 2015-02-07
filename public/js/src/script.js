@@ -24,7 +24,9 @@ function onTrackerSuccess() {
             console.log('omnomnom', data.mouth);
         }
     });
-    faceCapture.init(features, GESTURE_SAMPLE_PERIOD);
+    faceCapture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
+        // console.log('img', data.length)
+    });
 }
 
 function onTrackerFail(message) {

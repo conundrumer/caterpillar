@@ -4,13 +4,14 @@ var WIDTH = 30;
 var HEIGHT = 40;
 
 module.exports = {
-    init: function(features, period) {
+    init: function(features, period, cb) {
         this.features = features;
         this.canvas = document.getElementById('face');
         this.ctx = this.canvas.getContext('2d');
         this.video = document.getElementById('videoel');
         this.interval = setInterval(this.render.bind(this), period);
         // this.prevRotation = 0;
+        this.cb = cb;
     },
     render: function() {
         // this.ctx.restore();
@@ -35,5 +36,6 @@ module.exports = {
             // 0, 0, 1.6*400, 1.6*300,
             0, 0, WIDTH, HEIGHT);
         this.ctx.restore();
+        this.cb(this.canvas.toDataURL('image/jpeg'));
     }
 }
