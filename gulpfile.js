@@ -10,7 +10,7 @@ var watchify = require('watchify');
 
 // Compass & Compile our Sass
 // gulp.task('sass', function() {
-//     var path = './stylesheets/';
+//     var path = './public/stylesheets/';
 //     var files = [
 //         path + 'sass/*.scss',
 //         path + 'sass/grid/*.scss'
@@ -26,17 +26,17 @@ var watchify = require('watchify');
 //         .on('error', function(err) {
 //             console.log(err.message);
 //         })
-//         .pipe(gulp.dest('./stylesheets/css/'));
+//         .pipe(gulp.dest('./public/stylesheets/css/'));
 // });
 
 // Watch Files For Changes
 // gulp.task('watch', function() {
-//     gulp.watch('./stylesheets/sass/*.scss', ['sass']);
+//     gulp.watch('./public/stylesheets/sass/*.scss', ['sass']);
 // });
 
 // Browserify
 gulp.task('browserify', function() {
-    var path = './js/src/';
+    var path = './public/js/src/';
     var files = [
         path + 'script.js'
     ];
@@ -51,7 +51,7 @@ gulp.task('browserify', function() {
             //Pass desired output filename to vinyl-source-stream
             .pipe(source('bundle.js'))
             //Start piping stream to tasks
-            .pipe(gulp.dest('./js/build/'));
+            .pipe(gulp.dest('./public/js/build/'));
     };
 
     bundler = watchify(bundler);
