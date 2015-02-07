@@ -12,6 +12,7 @@ var server = app.listen(process.env.PORT || 3000, function() {
 
 //serve static files
 app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/node_modules/clmtrackr'));
 
 //views
 // app.set('views', __dirname + '/../views');
