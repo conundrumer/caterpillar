@@ -3,6 +3,7 @@ var store = require('./store');
 var tracker = require('./tracker');
 var features = require ('./features');
 var gesture = require('./gesture');
+var faceCapture = require('./face-capture');
 
 var GESTURE_SAMPLE_PERIOD = 200;
 
@@ -23,6 +24,7 @@ function onTrackerSuccess() {
             console.log('omnomnom', data.mouth);
         }
     });
+    faceCapture.init(features, GESTURE_SAMPLE_PERIOD);
 }
 
 function onTrackerFail(message) {

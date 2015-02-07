@@ -29,6 +29,14 @@
         filter : fliph; /*IE*/
     }
 
+    #face {
+        -o-transform : scaleX(-1);
+        -webkit-transform : scaleX(-1);
+        transform : scaleX(-1);
+        -ms-filter : fliph; /*IE*/
+        filter : fliph; /*IE*/
+    }
+
     #container {
         position : relative;
         width : 370px;
@@ -83,5 +91,7 @@
         </video>
         <canvas id="overlay" width="400" height="300"></canvas>
     </div>
+
+    <canvas id="face" width="30" height="40"></canvas>
 </body>
 </html>
