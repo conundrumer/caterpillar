@@ -1,13 +1,20 @@
 var io = require('socket.io-client');
 var store = require('./store');
 var tracker = require('./tracker');
+var features = require ('./features');
 
 function onTrackerSuccess() {
     console.log('got tracking!');
-    setTimeout(function() {
-        console.log(tracker.getPositions())
-        console.log(tracker.getScore())
-    }, 1000);
+    // setTimeout(function() {
+    //     console.log(tracker.getPositions())
+    //     console.log(tracker.getScore())
+    // }, 1000);
+    features.setTracker(tracker);
+    setInterval(function() {
+        console.log('mouth', features.getMouth());
+        console.log('eyebrows', features.getEyebrows());
+        console.log('tilt', features.getTilt());
+    }, 500);
 }
 
 function onTrackerFail(message) {
