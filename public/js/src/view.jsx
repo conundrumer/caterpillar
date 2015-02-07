@@ -3,7 +3,7 @@ var _ = require('underscore');
 
 var Player = React.createClass({
     render: function() {
-        var rotation = this.props.heading + Math.PI/2;
+        var rotation = this.props.heading + Math.PI;
         var transformStyle = 'translateX('+this.props.position.x+'px) translateY('+this.props.position.y+'px) rotate('+rotation+'rad)';
         var style = {
             transform: transformStyle,
@@ -43,7 +43,7 @@ var Food = React.createClass({
             left: this.props.position.x
         }
         return (
-            <div style={style}>+</div>
+            <div className='food' style={style}></div>
         );
     }
 })
