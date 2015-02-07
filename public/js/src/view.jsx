@@ -59,13 +59,12 @@ var Food = React.createClass({
         };
     },
     render: function() {
-        var transformStyle = 'translate(-10px, -10px) rotate('+this.state.rotation+'deg)';
+        var rotation = Math.floor((Math.random()*360)+1);
+        var transformStyle = 'translate(-10px, -10px) rotate('+rotation+'deg)';
         var style = {
             transform: transformStyle,
             webkitTransform: transformStyle,
             position: 'absolute',
-            width: 20,
-            height: 20,
             top: this.props.position.y,
             left: this.props.position.x
         }
