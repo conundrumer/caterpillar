@@ -17,9 +17,8 @@
 
     <div class="grid-container" id="game-view">
         <row>
-            <div class="col-3-4" id="canvas-container">
-                <canvas id="game-canvas"></canvas>
-                <button id="go-btn" hidden>Go</button>
+            <div class="col-3-4" id="react-container">
+                <button id="go-btn" style="float: right" hidden>Go</button>
             </div>
 
             <div class="col-1-4" id="sidebar">
@@ -31,11 +30,11 @@
                 <table id="instructions">
                     <tr>
                         <td class="move">&larr;</td>
-                        <td class="how-to">Move your head left</td>
+                        <td class="how-to" id="left">Tilt your head left</td>
                     </tr>
                     <tr>
                         <td class="move">&rarr;</td>
-                        <td class="how-to">Move your head right</td>
+                        <td class="how-to" id="right">Tilt your head right</td>
                     </tr>
                     <tr>
                         <td class="move">Eat</td>
@@ -45,14 +44,14 @@
                         <td class="move">Crawl</td>
                         <td class="how-to" id="wiggle">Wiggle your eyebrows</td>
                     </tr>
-                    <tr>
+<!--                     <tr>
                         <td>Eat Bar:</td>
                         <td><progress id="eated-bar" value="0" max="5"></progress></td>
                     </tr>
                     <tr>
                         <td>Wiggle Bar:</td>
                         <td><progress id="wiggle-bar" value="0" max="5"></progress></td>
-                    </tr>
+                    </tr> -->
                 </table>
 
             </div>
