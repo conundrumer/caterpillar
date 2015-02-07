@@ -10,3 +10,22 @@
     margin: 0 auto;
     padding: 50px 0;
 }
+
+.caterpillar {
+    background: url('../../images/caterpillar-l.png') no-repeat;
+    background-size: contain;
+    width: 175px;
+    height: 55px;
+}
+
+.caterpillar-face {
+    position: absolute;
+    top: 8px;
+}
+
+.food {
+    background: url('../../images/vomit.png') center center no-repeat;
+    background-size: contain;
+    width: 42px;
+    height: 23px;
+}
