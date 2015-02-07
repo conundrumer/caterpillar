@@ -5,6 +5,9 @@ var Player = React.createClass({
     render: function() {
         var rotation = this.props.heading + Math.PI;
         var transformStyle = 'translateX('+this.props.position.x+'px) translateY('+this.props.position.y+'px) rotate('+rotation+'rad)';
+        if (this.props.size) {
+            transformStyle += ' scale('+this.props.size+', '+this.props.size+')';
+        }
         var style = {
             transform: transformStyle,
             webkitTransform: transformStyle,
@@ -85,5 +88,9 @@ var App = React.createClass({
 module.exports = {
     render: function(props, target) {
         React.render(<App players={props.players} holes={props.holes} foods={props.foods}/>, target);
+    },
+
+    renderPlayer: function(props, target) {
+        React.render(<Player heading={props.heading} position={props.position} img={props.img} size={props.size}/>, target);
     }
 }
