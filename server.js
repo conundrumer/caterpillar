@@ -24,3 +24,7 @@ app.get('/', function(req, res) {
 app.get('/admin', function(req, res) {
     res.sendFile('/views/admin.html', {root: __dirname});
 });
+
+app.get('/game', function(req, res) {
+	res.sendFile('/views/game.html', {root: __dirname});
+});
