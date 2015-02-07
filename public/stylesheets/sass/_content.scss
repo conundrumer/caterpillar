@@ -16,6 +16,7 @@
     background-size: contain;
     width: 175px;
     height: 55px;
+    z-index: 2;
 }
 
 .caterpillar-face {
@@ -24,8 +25,18 @@
 }
 
 .food {
-    background: url('../../images/vomit.png') center center no-repeat;
+    // @include transform(rotate(-30deg));
+    background: url('../../images/aphid.png') center center no-repeat;
     background-size: contain;
-    width: 42px;
-    height: 23px;
+    width: 50px;
+    height: 50px;
+}
+
+#go-btn {
+    border-style: none;
+    background-color: #fff;
+    padding: 5px 8px;
+    &:hover {
+        cursor: pointer;
+    }
 }

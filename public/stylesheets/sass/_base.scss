@@ -47,15 +47,36 @@ input, select, textarea, button {
 
 #sidebar {
     min-width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 table {
     border-collapse:separate;
-    border-spacing:5px;
+    border-spacing: 5px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     // padding: 5px;
+    // tr {
+    //     td {
+    //         border-left: 1px solid #fff;
+    //         border-top: 1px solid #fff;
+
+    //         &:last-child {
+    //             border-right: 1px solid #fff;
+    //         }
+    //     }
+
+    //     &:last-child td {
+    //         border-bottom: 1px solid #fff;
+    //     }
+    // }
+
+    // td {
+    //     padding: 10px;
+    // }
 }
 
 .move {

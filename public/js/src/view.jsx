@@ -40,7 +40,11 @@ var Hole = React.createClass({
 
 var Food = React.createClass({
     render: function() {
+        var rotation = Math.floor((Math.random()*360)+1);
+        var transformStyle = 'rotate('+rotation+'deg)';
         var style = {
+            transform: transformStyle,
+            webkitTransform: transformStyle,
             position: 'absolute',
             top: this.props.position.y,
             left: this.props.position.x
