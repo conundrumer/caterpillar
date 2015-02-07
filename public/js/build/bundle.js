@@ -160,7 +160,7 @@ var getColorForPercentage = function(pct) {
 
 
 
-},{"../../../utils/uuid":"/Users/jingxiao/caterpillar/utils/uuid.js","./face-capture":"/Users/jingxiao/caterpillar/public/js/src/face-capture.js","./features":"/Users/jingxiao/caterpillar/public/js/src/features.js","./gesture":"/Users/jingxiao/caterpillar/public/js/src/gesture.js","./store":"/Users/jingxiao/caterpillar/public/js/src/store.js","./tracker":"/Users/jingxiao/caterpillar/public/js/src/tracker.js","./view.jsx":"/Users/jingxiao/caterpillar/public/js/src/view.jsx","socket.io-client":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/index.js"}],"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
+},{"../../../utils/uuid":"/Users/delu/code/caterpillar/utils/uuid.js","./face-capture":"/Users/delu/code/caterpillar/public/js/src/face-capture.js","./features":"/Users/delu/code/caterpillar/public/js/src/features.js","./gesture":"/Users/delu/code/caterpillar/public/js/src/gesture.js","./store":"/Users/delu/code/caterpillar/public/js/src/store.js","./tracker":"/Users/delu/code/caterpillar/public/js/src/tracker.js","./view.jsx":"/Users/delu/code/caterpillar/public/js/src/view.jsx","socket.io-client":"/Users/delu/code/caterpillar/node_modules/socket.io-client/index.js"}],"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js":[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -219,7 +219,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/AutoFocusMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -246,7 +246,7 @@ var AutoFocusMixin = {
 
 module.exports = AutoFocusMixin;
 
-},{"./focusNode":"/Users/jingxiao/caterpillar/node_modules/react/lib/focusNode.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
+},{"./focusNode":"/Users/delu/code/caterpillar/node_modules/react/lib/focusNode.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/BeforeInputEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -468,7 +468,7 @@ var BeforeInputEventPlugin = {
 
 module.exports = BeforeInputEventPlugin;
 
-},{"./EventConstants":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./SyntheticInputEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyOf.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./SyntheticInputEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticInputEvent.js","./keyOf":"/Users/delu/code/caterpillar/node_modules/react/lib/keyOf.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/CSSProperty.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -587,7 +587,7 @@ var CSSProperty = {
 
 module.exports = CSSProperty;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/CSSPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -722,7 +722,7 @@ var CSSPropertyOperations = {
 module.exports = CSSPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./CSSProperty":"/Users/jingxiao/caterpillar/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/jingxiao/caterpillar/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/jingxiao/caterpillar/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/jingxiao/caterpillar/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/jingxiao/caterpillar/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
+},{"./CSSProperty":"/Users/delu/code/caterpillar/node_modules/react/lib/CSSProperty.js","./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./camelizeStyleName":"/Users/delu/code/caterpillar/node_modules/react/lib/camelizeStyleName.js","./dangerousStyleValue":"/Users/delu/code/caterpillar/node_modules/react/lib/dangerousStyleValue.js","./hyphenateStyleName":"/Users/delu/code/caterpillar/node_modules/react/lib/hyphenateStyleName.js","./memoizeStringOnly":"/Users/delu/code/caterpillar/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/CallbackQueue.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -822,7 +822,7 @@ PooledClass.addPoolingTo(CallbackQueue);
 module.exports = CallbackQueue;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/jingxiao/caterpillar/node_modules/react/lib/PooledClass.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/delu/code/caterpillar/node_modules/react/lib/PooledClass.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ChangeEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -1204,7 +1204,7 @@ var ChangeEventPlugin = {
 
 module.exports = ChangeEventPlugin;
 
-},{"./EventConstants":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/jingxiao/caterpillar/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyOf.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginHub.js","./EventPropagators":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./ReactUpdates":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactUpdates.js","./SyntheticEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticEvent.js","./isEventSupported":"/Users/delu/code/caterpillar/node_modules/react/lib/isEventSupported.js","./isTextInputElement":"/Users/delu/code/caterpillar/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/delu/code/caterpillar/node_modules/react/lib/keyOf.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ClientReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -1229,7 +1229,7 @@ var ClientReactRootIndex = {
 
 module.exports = ClientReactRootIndex;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/CompositionEventPlugin.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/CompositionEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -1488,7 +1488,7 @@ var CompositionEventPlugin = {
 
 module.exports = CompositionEventPlugin;
 
-},{"./EventConstants":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./ReactInputSelection":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInputSelection.js","./SyntheticCompositionEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticCompositionEvent.js","./getTextContentAccessor":"/Users/jingxiao/caterpillar/node_modules/react/lib/getTextContentAccessor.js","./keyOf":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyOf.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPropagators.js","./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./ReactInputSelection":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInputSelection.js","./SyntheticCompositionEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticCompositionEvent.js","./getTextContentAccessor":"/Users/delu/code/caterpillar/node_modules/react/lib/getTextContentAccessor.js","./keyOf":"/Users/delu/code/caterpillar/node_modules/react/lib/keyOf.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/DOMChildrenOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -1663,7 +1663,7 @@ var DOMChildrenOperations = {
 module.exports = DOMChildrenOperations;
 
 }).call(this,require('_process'))
-},{"./Danger":"/Users/jingxiao/caterpillar/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./getTextContentAccessor":"/Users/jingxiao/caterpillar/node_modules/react/lib/getTextContentAccessor.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
+},{"./Danger":"/Users/delu/code/caterpillar/node_modules/react/lib/Danger.js","./ReactMultiChildUpdateTypes":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./getTextContentAccessor":"/Users/delu/code/caterpillar/node_modules/react/lib/getTextContentAccessor.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/DOMProperty.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -1962,7 +1962,7 @@ var DOMProperty = {
 module.exports = DOMProperty;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
+},{"./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/DOMPropertyOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -2159,7 +2159,7 @@ var DOMPropertyOperations = {
 module.exports = DOMPropertyOperations;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMProperty.js","./escapeTextForBrowser":"/Users/jingxiao/caterpillar/node_modules/react/lib/escapeTextForBrowser.js","./memoizeStringOnly":"/Users/jingxiao/caterpillar/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/Danger.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMProperty.js","./escapeTextForBrowser":"/Users/delu/code/caterpillar/node_modules/react/lib/escapeTextForBrowser.js","./memoizeStringOnly":"/Users/delu/code/caterpillar/node_modules/react/lib/memoizeStringOnly.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/Danger.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -2345,7 +2345,7 @@ var Danger = {
 module.exports = Danger;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/jingxiao/caterpillar/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/jingxiao/caterpillar/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/jingxiao/caterpillar/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./createNodesFromMarkup":"/Users/delu/code/caterpillar/node_modules/react/lib/createNodesFromMarkup.js","./emptyFunction":"/Users/delu/code/caterpillar/node_modules/react/lib/emptyFunction.js","./getMarkupWrap":"/Users/delu/code/caterpillar/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/DefaultEventPluginOrder.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -2385,7 +2385,7 @@ var DefaultEventPluginOrder = [
 
 module.exports = DefaultEventPluginOrder;
 
-},{"./keyOf":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyOf.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
+},{"./keyOf":"/Users/delu/code/caterpillar/node_modules/react/lib/keyOf.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/EnterLeaveEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -2525,7 +2525,7 @@ var EnterLeaveEventPlugin = {
 
 module.exports = EnterLeaveEventPlugin;
 
-},{"./EventConstants":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyOf.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPropagators.js","./ReactMount":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMount.js","./SyntheticMouseEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticMouseEvent.js","./keyOf":"/Users/delu/code/caterpillar/node_modules/react/lib/keyOf.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -2597,7 +2597,7 @@ var EventConstants = {
 
 module.exports = EventConstants;
 
-},{"./keyMirror":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyMirror.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/EventListener.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/delu/code/caterpillar/node_modules/react/lib/keyMirror.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/EventListener.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014 Facebook, Inc.
@@ -2687,7 +2687,7 @@ var EventListener = {
 module.exports = EventListener;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":"/Users/jingxiao/caterpillar/node_modules/react/lib/emptyFunction.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
+},{"./emptyFunction":"/Users/delu/code/caterpillar/node_modules/react/lib/emptyFunction.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginHub.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -2963,7 +2963,7 @@ var EventPluginHub = {
 module.exports = EventPluginHub;
 
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/jingxiao/caterpillar/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/jingxiao/caterpillar/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
+},{"./EventPluginRegistry":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginRegistry.js","./EventPluginUtils":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginUtils.js","./accumulateInto":"/Users/delu/code/caterpillar/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/delu/code/caterpillar/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginRegistry.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3243,7 +3243,7 @@ var EventPluginRegistry = {
 module.exports = EventPluginRegistry;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
+},{"./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3464,7 +3464,7 @@ var EventPluginUtils = {
 module.exports = EventPluginUtils;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/EventPropagators.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3606,7 +3606,7 @@ var EventPropagators = {
 module.exports = EventPropagators;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/jingxiao/caterpillar/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/jingxiao/caterpillar/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginHub.js","./accumulateInto":"/Users/delu/code/caterpillar/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/delu/code/caterpillar/node_modules/react/lib/forEachAccumulated.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -3651,7 +3651,7 @@ var ExecutionEnvironment = {
 
 module.exports = ExecutionEnvironment;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/HTMLDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -3843,7 +3843,7 @@ var HTMLDOMPropertyConfig = {
 
 module.exports = HTMLDOMPropertyConfig;
 
-},{"./DOMProperty":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMProperty.js","./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/LinkedValueUtils.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -3999,7 +3999,7 @@ var LinkedValueUtils = {
 module.exports = LinkedValueUtils;
 
 }).call(this,require('_process'))
-},{"./ReactPropTypes":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
+},{"./ReactPropTypes":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPropTypes.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/LocalEventTrapMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -4049,7 +4049,7 @@ var LocalEventTrapMixin = {
 module.exports = LocalEventTrapMixin;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserEventEmitter":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/jingxiao/caterpillar/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/jingxiao/caterpillar/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
+},{"./ReactBrowserEventEmitter":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js","./accumulateInto":"/Users/delu/code/caterpillar/node_modules/react/lib/accumulateInto.js","./forEachAccumulated":"/Users/delu/code/caterpillar/node_modules/react/lib/forEachAccumulated.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/MobileSafariClickEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -4107,7 +4107,7 @@ var MobileSafariClickEventPlugin = {
 
 module.exports = MobileSafariClickEventPlugin;
 
-},{"./EventConstants":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/jingxiao/caterpillar/node_modules/react/lib/emptyFunction.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js","./emptyFunction":"/Users/delu/code/caterpillar/node_modules/react/lib/emptyFunction.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -4154,7 +4154,7 @@ function assign(target, sources) {
 
 module.exports = assign;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/PooledClass.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4270,7 +4270,7 @@ var PooledClass = {
 module.exports = PooledClass;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/React.js":[function(require,module,exports){
+},{"./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/React.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4458,7 +4458,7 @@ React.version = '0.12.2';
 module.exports = React;
 
 }).call(this,require('_process'))
-},{"./DOMPropertyOperations":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMPropertyOperations.js","./EventPluginUtils":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactChildren.js","./ReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactContext":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactDOMComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMComponent.js","./ReactDefaultInjection":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactLegacyElement.js","./ReactMount":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPropTypes.js","./ReactServerRendering":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactServerRendering.js","./ReactTextComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactTextComponent.js","./deprecated":"/Users/jingxiao/caterpillar/node_modules/react/lib/deprecated.js","./onlyChild":"/Users/jingxiao/caterpillar/node_modules/react/lib/onlyChild.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMPropertyOperations.js","./EventPluginUtils":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginUtils.js","./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./ReactChildren":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactChildren.js","./ReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactContext":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./ReactDOM":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactDOMComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMComponent.js","./ReactDefaultInjection":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDefaultInjection.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElementValidator.js","./ReactInstanceHandles":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactLegacyElement.js","./ReactMount":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPerf.js","./ReactPropTypes":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPropTypes.js","./ReactServerRendering":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactServerRendering.js","./ReactTextComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactTextComponent.js","./deprecated":"/Users/delu/code/caterpillar/node_modules/react/lib/deprecated.js","./onlyChild":"/Users/delu/code/caterpillar/node_modules/react/lib/onlyChild.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -4501,7 +4501,7 @@ var ReactBrowserComponentMixin = {
 module.exports = ReactBrowserComponentMixin;
 
 }).call(this,require('_process'))
-},{"./ReactEmptyComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactEmptyComponent.js","./ReactMount":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMount.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
+},{"./ReactEmptyComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactEmptyComponent.js","./ReactMount":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMount.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -4856,7 +4856,7 @@ var ReactBrowserEventEmitter = assign({}, ReactEventEmitterMixin, {
 
 module.exports = ReactBrowserEventEmitter;
 
-},{"./EventConstants":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/jingxiao/caterpillar/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/jingxiao/caterpillar/node_modules/react/lib/isEventSupported.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js","./EventPluginHub":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginHub.js","./EventPluginRegistry":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginRegistry.js","./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./ReactEventEmitterMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactEventEmitterMixin.js","./ViewportMetrics":"/Users/delu/code/caterpillar/node_modules/react/lib/ViewportMetrics.js","./isEventSupported":"/Users/delu/code/caterpillar/node_modules/react/lib/isEventSupported.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5006,7 +5006,7 @@ var ReactChildren = {
 module.exports = ReactChildren;
 
 }).call(this,require('_process'))
-},{"./PooledClass":"/Users/jingxiao/caterpillar/node_modules/react/lib/PooledClass.js","./traverseAllChildren":"/Users/jingxiao/caterpillar/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
+},{"./PooledClass":"/Users/delu/code/caterpillar/node_modules/react/lib/PooledClass.js","./traverseAllChildren":"/Users/delu/code/caterpillar/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5449,7 +5449,7 @@ var ReactComponent = {
 module.exports = ReactComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactOwner":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactOwner.js","./ReactUpdates":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","./keyMirror":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyMirror.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactOwner":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactOwner.js","./ReactUpdates":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","./keyMirror":"/Users/delu/code/caterpillar/node_modules/react/lib/keyMirror.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactComponentBrowserEnvironment.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -5571,7 +5571,7 @@ var ReactComponentBrowserEnvironment = {
 module.exports = ReactComponentBrowserEnvironment;
 
 }).call(this,require('_process'))
-},{"./ReactDOMIDOperations":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMarkupChecksum":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMarkupChecksum.js","./ReactMount":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPerf.js","./ReactReconcileTransaction":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactReconcileTransaction.js","./getReactRootElementInContainer":"/Users/jingxiao/caterpillar/node_modules/react/lib/getReactRootElementInContainer.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/jingxiao/caterpillar/node_modules/react/lib/setInnerHTML.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
+},{"./ReactDOMIDOperations":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMIDOperations.js","./ReactMarkupChecksum":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMarkupChecksum.js","./ReactMount":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPerf.js","./ReactReconcileTransaction":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactReconcileTransaction.js","./getReactRootElementInContainer":"/Users/delu/code/caterpillar/node_modules/react/lib/getReactRootElementInContainer.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/delu/code/caterpillar/node_modules/react/lib/setInnerHTML.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCompositeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7011,7 +7011,7 @@ var ReactCompositeComponent = {
 module.exports = ReactCompositeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactEmptyComponent.js","./ReactErrorUtils":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactErrorUtils.js","./ReactLegacyElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactLegacyElement.js","./ReactOwner":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactOwner.js","./ReactPerf":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPerf.js","./ReactPropTransferer":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPropTransferer.js","./ReactPropTypeLocationNames":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdates":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactUpdates.js","./instantiateReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","./keyMirror":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyOf.js","./mapObject":"/Users/jingxiao/caterpillar/node_modules/react/lib/mapObject.js","./monitorCodeUse":"/Users/jingxiao/caterpillar/node_modules/react/lib/monitorCodeUse.js","./shouldUpdateReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactComponent.js","./ReactContext":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElementValidator.js","./ReactEmptyComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactEmptyComponent.js","./ReactErrorUtils":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactErrorUtils.js","./ReactLegacyElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactLegacyElement.js","./ReactOwner":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactOwner.js","./ReactPerf":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPerf.js","./ReactPropTransferer":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPropTransferer.js","./ReactPropTypeLocationNames":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPropTypeLocationNames.js","./ReactPropTypeLocations":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPropTypeLocations.js","./ReactUpdates":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactUpdates.js","./instantiateReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","./keyMirror":"/Users/delu/code/caterpillar/node_modules/react/lib/keyMirror.js","./keyOf":"/Users/delu/code/caterpillar/node_modules/react/lib/keyOf.js","./mapObject":"/Users/delu/code/caterpillar/node_modules/react/lib/mapObject.js","./monitorCodeUse":"/Users/delu/code/caterpillar/node_modules/react/lib/monitorCodeUse.js","./shouldUpdateReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactContext.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -7073,7 +7073,7 @@ var ReactContext = {
 
 module.exports = ReactContext;
 
-},{"./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCurrentOwner.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -7107,7 +7107,7 @@ var ReactCurrentOwner = {
 
 module.exports = ReactCurrentOwner;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOM.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7290,7 +7290,7 @@ var ReactDOM = mapObject({
 module.exports = ReactDOM;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElementValidator.js","./ReactLegacyElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactLegacyElement.js","./mapObject":"/Users/jingxiao/caterpillar/node_modules/react/lib/mapObject.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactElementValidator":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElementValidator.js","./ReactLegacyElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactLegacyElement.js","./mapObject":"/Users/delu/code/caterpillar/node_modules/react/lib/mapObject.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMButton.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -7355,7 +7355,7 @@ var ReactDOMButton = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMButton;
 
-},{"./AutoFocusMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyMirror.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/AutoFocusMixin.js","./ReactBrowserComponentMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./keyMirror":"/Users/delu/code/caterpillar/node_modules/react/lib/keyMirror.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -7842,7 +7842,7 @@ assign(
 module.exports = ReactDOMComponent;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":"/Users/jingxiao/caterpillar/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactBrowserEventEmitter":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactComponent.js","./ReactMount":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPerf.js","./escapeTextForBrowser":"/Users/jingxiao/caterpillar/node_modules/react/lib/escapeTextForBrowser.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/jingxiao/caterpillar/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyOf.js","./monitorCodeUse":"/Users/jingxiao/caterpillar/node_modules/react/lib/monitorCodeUse.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/Users/delu/code/caterpillar/node_modules/react/lib/CSSPropertyOperations.js","./DOMProperty":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMProperty.js","./DOMPropertyOperations":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactBrowserEventEmitter":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactComponent.js","./ReactMount":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMount.js","./ReactMultiChild":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMultiChild.js","./ReactPerf":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPerf.js","./escapeTextForBrowser":"/Users/delu/code/caterpillar/node_modules/react/lib/escapeTextForBrowser.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","./isEventSupported":"/Users/delu/code/caterpillar/node_modules/react/lib/isEventSupported.js","./keyOf":"/Users/delu/code/caterpillar/node_modules/react/lib/keyOf.js","./monitorCodeUse":"/Users/delu/code/caterpillar/node_modules/react/lib/monitorCodeUse.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMForm.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -7892,7 +7892,7 @@ var ReactDOMForm = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMForm;
 
-},{"./EventConstants":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMIDOperations.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -8078,7 +8078,7 @@ var ReactDOMIDOperations = {
 module.exports = ReactDOMIDOperations;
 
 }).call(this,require('_process'))
-},{"./CSSPropertyOperations":"/Users/jingxiao/caterpillar/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/jingxiao/caterpillar/node_modules/react/lib/setInnerHTML.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
+},{"./CSSPropertyOperations":"/Users/delu/code/caterpillar/node_modules/react/lib/CSSPropertyOperations.js","./DOMChildrenOperations":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMChildrenOperations.js","./DOMPropertyOperations":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMPropertyOperations.js","./ReactMount":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPerf.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","./setInnerHTML":"/Users/delu/code/caterpillar/node_modules/react/lib/setInnerHTML.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMImg.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -8126,7 +8126,7 @@ var ReactDOMImg = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMImg;
 
-},{"./EventConstants":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js","./LocalEventTrapMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/LocalEventTrapMixin.js","./ReactBrowserComponentMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMInput.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -8304,7 +8304,7 @@ var ReactDOMInput = ReactCompositeComponent.createClass({
 module.exports = ReactDOMInput;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/jingxiao/caterpillar/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/delu/code/caterpillar/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactMount":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMOption.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -8357,7 +8357,7 @@ var ReactDOMOption = ReactCompositeComponent.createClass({
 module.exports = ReactDOMOption;
 
 }).call(this,require('_process'))
-},{"./ReactBrowserComponentMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
+},{"./ReactBrowserComponentMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMSelect.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -8541,7 +8541,7 @@ var ReactDOMSelect = ReactCompositeComponent.createClass({
 
 module.exports = ReactDOMSelect;
 
-},{"./AutoFocusMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/jingxiao/caterpillar/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactUpdates.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/AutoFocusMixin.js","./LinkedValueUtils":"/Users/delu/code/caterpillar/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactUpdates.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -8750,7 +8750,7 @@ var ReactDOMSelection = {
 
 module.exports = ReactDOMSelection;
 
-},{"./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/jingxiao/caterpillar/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/jingxiao/caterpillar/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./getNodeForCharacterOffset":"/Users/delu/code/caterpillar/node_modules/react/lib/getNodeForCharacterOffset.js","./getTextContentAccessor":"/Users/delu/code/caterpillar/node_modules/react/lib/getTextContentAccessor.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMTextarea.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -8891,7 +8891,7 @@ var ReactDOMTextarea = ReactCompositeComponent.createClass({
 module.exports = ReactDOMTextarea;
 
 }).call(this,require('_process'))
-},{"./AutoFocusMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/jingxiao/caterpillar/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
+},{"./AutoFocusMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/AutoFocusMixin.js","./DOMPropertyOperations":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMPropertyOperations.js","./LinkedValueUtils":"/Users/delu/code/caterpillar/node_modules/react/lib/LinkedValueUtils.js","./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./ReactBrowserComponentMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactCompositeComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactDOM":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOM.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactUpdates":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactUpdates.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDefaultBatchingStrategy.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -8964,7 +8964,7 @@ var ReactDefaultBatchingStrategy = {
 
 module.exports = ReactDefaultBatchingStrategy;
 
-},{"./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/jingxiao/caterpillar/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/jingxiao/caterpillar/node_modules/react/lib/emptyFunction.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./ReactUpdates":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactUpdates.js","./Transaction":"/Users/delu/code/caterpillar/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/delu/code/caterpillar/node_modules/react/lib/emptyFunction.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDefaultInjection.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -9093,7 +9093,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./BeforeInputEventPlugin":"/Users/jingxiao/caterpillar/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/jingxiao/caterpillar/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/jingxiao/caterpillar/node_modules/react/lib/ClientReactRootIndex.js","./CompositionEventPlugin":"/Users/jingxiao/caterpillar/node_modules/react/lib/CompositionEventPlugin.js","./DefaultEventPluginOrder":"/Users/jingxiao/caterpillar/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/jingxiao/caterpillar/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/jingxiao/caterpillar/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/jingxiao/caterpillar/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactComponentBrowserEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMForm.js","./ReactDOMImg":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextarea":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDefaultPerf.js","./ReactEventListener":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMount.js","./SVGDOMPropertyConfig":"/Users/jingxiao/caterpillar/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/jingxiao/caterpillar/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/jingxiao/caterpillar/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/jingxiao/caterpillar/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
+},{"./BeforeInputEventPlugin":"/Users/delu/code/caterpillar/node_modules/react/lib/BeforeInputEventPlugin.js","./ChangeEventPlugin":"/Users/delu/code/caterpillar/node_modules/react/lib/ChangeEventPlugin.js","./ClientReactRootIndex":"/Users/delu/code/caterpillar/node_modules/react/lib/ClientReactRootIndex.js","./CompositionEventPlugin":"/Users/delu/code/caterpillar/node_modules/react/lib/CompositionEventPlugin.js","./DefaultEventPluginOrder":"/Users/delu/code/caterpillar/node_modules/react/lib/DefaultEventPluginOrder.js","./EnterLeaveEventPlugin":"/Users/delu/code/caterpillar/node_modules/react/lib/EnterLeaveEventPlugin.js","./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./HTMLDOMPropertyConfig":"/Users/delu/code/caterpillar/node_modules/react/lib/HTMLDOMPropertyConfig.js","./MobileSafariClickEventPlugin":"/Users/delu/code/caterpillar/node_modules/react/lib/MobileSafariClickEventPlugin.js","./ReactBrowserComponentMixin":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserComponentMixin.js","./ReactComponentBrowserEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactComponentBrowserEnvironment.js","./ReactDOMButton":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMButton.js","./ReactDOMComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMComponent.js","./ReactDOMForm":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMForm.js","./ReactDOMImg":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMImg.js","./ReactDOMInput":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMInput.js","./ReactDOMOption":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMOption.js","./ReactDOMSelect":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMSelect.js","./ReactDOMTextarea":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMTextarea.js","./ReactDefaultBatchingStrategy":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDefaultBatchingStrategy.js","./ReactDefaultPerf":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDefaultPerf.js","./ReactEventListener":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactEventListener.js","./ReactInjection":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInjection.js","./ReactInstanceHandles":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMount.js","./SVGDOMPropertyConfig":"/Users/delu/code/caterpillar/node_modules/react/lib/SVGDOMPropertyConfig.js","./SelectEventPlugin":"/Users/delu/code/caterpillar/node_modules/react/lib/SelectEventPlugin.js","./ServerReactRootIndex":"/Users/delu/code/caterpillar/node_modules/react/lib/ServerReactRootIndex.js","./SimpleEventPlugin":"/Users/delu/code/caterpillar/node_modules/react/lib/SimpleEventPlugin.js","./createFullPageComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/createFullPageComponent.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDefaultPerf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -9353,7 +9353,7 @@ var ReactDefaultPerf = {
 
 module.exports = ReactDefaultPerf;
 
-},{"./DOMProperty":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/jingxiao/caterpillar/node_modules/react/lib/performanceNow.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMProperty.js","./ReactDefaultPerfAnalysis":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDefaultPerfAnalysis.js","./ReactMount":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMount.js","./ReactPerf":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPerf.js","./performanceNow":"/Users/delu/code/caterpillar/node_modules/react/lib/performanceNow.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDefaultPerfAnalysis.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -9559,7 +9559,7 @@ var ReactDefaultPerfAnalysis = {
 
 module.exports = ReactDefaultPerfAnalysis;
 
-},{"./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -9805,7 +9805,7 @@ ReactElement.isValidElement = function(object) {
 module.exports = ReactElement;
 
 }).call(this,require('_process'))
-},{"./ReactContext":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
+},{"./ReactContext":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactContext.js","./ReactCurrentOwner":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElementValidator.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -10087,7 +10087,7 @@ var ReactElementValidator = {
 module.exports = ReactElementValidator;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocations":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPropTypeLocations.js","./monitorCodeUse":"/Users/jingxiao/caterpillar/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocations":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPropTypeLocations.js","./monitorCodeUse":"/Users/delu/code/caterpillar/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactEmptyComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -10164,7 +10164,7 @@ var ReactEmptyComponent = {
 module.exports = ReactEmptyComponent;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactErrorUtils.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10196,7 +10196,7 @@ var ReactErrorUtils = {
 
 module.exports = ReactErrorUtils;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactEventEmitterMixin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10246,7 +10246,7 @@ var ReactEventEmitterMixin = {
 
 module.exports = ReactEventEmitterMixin;
 
-},{"./EventPluginHub":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginHub.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
+},{"./EventPluginHub":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginHub.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactEventListener.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10430,7 +10430,7 @@ var ReactEventListener = {
 
 module.exports = ReactEventListener;
 
-},{"./EventListener":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/jingxiao/caterpillar/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/jingxiao/caterpillar/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
+},{"./EventListener":"/Users/delu/code/caterpillar/node_modules/react/lib/EventListener.js","./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/delu/code/caterpillar/node_modules/react/lib/PooledClass.js","./ReactInstanceHandles":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInstanceHandles.js","./ReactMount":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMount.js","./ReactUpdates":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactUpdates.js","./getEventTarget":"/Users/delu/code/caterpillar/node_modules/react/lib/getEventTarget.js","./getUnboundedScrollPosition":"/Users/delu/code/caterpillar/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInjection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10470,7 +10470,7 @@ var ReactInjection = {
 
 module.exports = ReactInjection;
 
-},{"./DOMProperty":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactUpdates.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMProperty.js","./EventPluginHub":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginHub.js","./ReactBrowserEventEmitter":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactComponent.js","./ReactCompositeComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactEmptyComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactEmptyComponent.js","./ReactNativeComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactNativeComponent.js","./ReactPerf":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPerf.js","./ReactRootIndex":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactRootIndex.js","./ReactUpdates":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactUpdates.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInputSelection.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -10606,7 +10606,7 @@ var ReactInputSelection = {
 
 module.exports = ReactInputSelection;
 
-},{"./ReactDOMSelection":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/jingxiao/caterpillar/node_modules/react/lib/containsNode.js","./focusNode":"/Users/jingxiao/caterpillar/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/getActiveElement.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
+},{"./ReactDOMSelection":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactDOMSelection.js","./containsNode":"/Users/delu/code/caterpillar/node_modules/react/lib/containsNode.js","./focusNode":"/Users/delu/code/caterpillar/node_modules/react/lib/focusNode.js","./getActiveElement":"/Users/delu/code/caterpillar/node_modules/react/lib/getActiveElement.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInstanceHandles.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -10941,7 +10941,7 @@ var ReactInstanceHandles = {
 module.exports = ReactInstanceHandles;
 
 }).call(this,require('_process'))
-},{"./ReactRootIndex":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactLegacyElement.js":[function(require,module,exports){
+},{"./ReactRootIndex":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactRootIndex.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactLegacyElement.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -11188,7 +11188,7 @@ ReactLegacyElementFactory._isLegacyCallWarningEnabled = true;
 module.exports = ReactLegacyElementFactory;
 
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","./monitorCodeUse":"/Users/jingxiao/caterpillar/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
+},{"./ReactCurrentOwner":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","./monitorCodeUse":"/Users/delu/code/caterpillar/node_modules/react/lib/monitorCodeUse.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMarkupChecksum.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -11236,7 +11236,7 @@ var ReactMarkupChecksum = {
 
 module.exports = ReactMarkupChecksum;
 
-},{"./adler32":"/Users/jingxiao/caterpillar/node_modules/react/lib/adler32.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
+},{"./adler32":"/Users/delu/code/caterpillar/node_modules/react/lib/adler32.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMount.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -11934,7 +11934,7 @@ ReactMount.renderComponent = deprecated(
 module.exports = ReactMount;
 
 }).call(this,require('_process'))
-},{"./DOMProperty":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactLegacyElement.js","./ReactPerf":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPerf.js","./containsNode":"/Users/jingxiao/caterpillar/node_modules/react/lib/containsNode.js","./deprecated":"/Users/jingxiao/caterpillar/node_modules/react/lib/deprecated.js","./getReactRootElementInContainer":"/Users/jingxiao/caterpillar/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMProperty.js","./ReactBrowserEventEmitter":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactCurrentOwner":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInstanceHandles.js","./ReactLegacyElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactLegacyElement.js","./ReactPerf":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPerf.js","./containsNode":"/Users/delu/code/caterpillar/node_modules/react/lib/containsNode.js","./deprecated":"/Users/delu/code/caterpillar/node_modules/react/lib/deprecated.js","./getReactRootElementInContainer":"/Users/delu/code/caterpillar/node_modules/react/lib/getReactRootElementInContainer.js","./instantiateReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","./shouldUpdateReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/shouldUpdateReactComponent.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMultiChild.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -12362,7 +12362,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 
-},{"./ReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactComponent.js","./ReactMultiChildUpdateTypes":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./flattenChildren":"/Users/jingxiao/caterpillar/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
+},{"./ReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactComponent.js","./ReactMultiChildUpdateTypes":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMultiChildUpdateTypes.js","./flattenChildren":"/Users/delu/code/caterpillar/node_modules/react/lib/flattenChildren.js","./instantiateReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/instantiateReactComponent.js","./shouldUpdateReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/shouldUpdateReactComponent.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMultiChildUpdateTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -12395,7 +12395,7 @@ var ReactMultiChildUpdateTypes = keyMirror({
 
 module.exports = ReactMultiChildUpdateTypes;
 
-},{"./keyMirror":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyMirror.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/delu/code/caterpillar/node_modules/react/lib/keyMirror.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactNativeComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -12468,7 +12468,7 @@ var ReactNativeComponent = {
 module.exports = ReactNativeComponent;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactOwner.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -12624,7 +12624,7 @@ var ReactOwner = {
 module.exports = ReactOwner;
 
 }).call(this,require('_process'))
-},{"./emptyObject":"/Users/jingxiao/caterpillar/node_modules/react/lib/emptyObject.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
+},{"./emptyObject":"/Users/delu/code/caterpillar/node_modules/react/lib/emptyObject.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPerf.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -12708,7 +12708,7 @@ function _noMeasure(objName, fnName, func) {
 module.exports = ReactPerf;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
+},{"_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPropTransferer.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -12875,7 +12875,7 @@ var ReactPropTransferer = {
 module.exports = ReactPropTransferer;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./emptyFunction":"/Users/jingxiao/caterpillar/node_modules/react/lib/emptyFunction.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","./joinClasses":"/Users/jingxiao/caterpillar/node_modules/react/lib/joinClasses.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./emptyFunction":"/Users/delu/code/caterpillar/node_modules/react/lib/emptyFunction.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","./joinClasses":"/Users/delu/code/caterpillar/node_modules/react/lib/joinClasses.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPropTypeLocationNames.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -12903,7 +12903,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = ReactPropTypeLocationNames;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
+},{"_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPropTypeLocations.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -12927,7 +12927,7 @@ var ReactPropTypeLocations = keyMirror({
 
 module.exports = ReactPropTypeLocations;
 
-},{"./keyMirror":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyMirror.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
+},{"./keyMirror":"/Users/delu/code/caterpillar/node_modules/react/lib/keyMirror.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPropTypes.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13281,7 +13281,7 @@ function getPreciseType(propValue) {
 
 module.exports = ReactPropTypes;
 
-},{"./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocationNames":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPropTypeLocationNames.js","./deprecated":"/Users/jingxiao/caterpillar/node_modules/react/lib/deprecated.js","./emptyFunction":"/Users/jingxiao/caterpillar/node_modules/react/lib/emptyFunction.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactPropTypeLocationNames":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPropTypeLocationNames.js","./deprecated":"/Users/delu/code/caterpillar/node_modules/react/lib/deprecated.js","./emptyFunction":"/Users/delu/code/caterpillar/node_modules/react/lib/emptyFunction.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPutListenerQueue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13337,7 +13337,7 @@ PooledClass.addPoolingTo(ReactPutListenerQueue);
 
 module.exports = ReactPutListenerQueue;
 
-},{"./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/jingxiao/caterpillar/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/delu/code/caterpillar/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactReconcileTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13513,7 +13513,7 @@ PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
 
-},{"./CallbackQueue":"/Users/jingxiao/caterpillar/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/jingxiao/caterpillar/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/jingxiao/caterpillar/node_modules/react/lib/Transaction.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/delu/code/caterpillar/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/delu/code/caterpillar/node_modules/react/lib/PooledClass.js","./ReactBrowserEventEmitter":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactBrowserEventEmitter.js","./ReactInputSelection":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInputSelection.js","./ReactPutListenerQueue":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/delu/code/caterpillar/node_modules/react/lib/Transaction.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13544,7 +13544,7 @@ var ReactRootIndex = {
 
 module.exports = ReactRootIndex;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactServerRendering.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -13624,7 +13624,7 @@ module.exports = {
 };
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactServerRenderingTransaction.js","./instantiateReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInstanceHandles.js","./ReactMarkupChecksum":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactMarkupChecksum.js","./ReactServerRenderingTransaction":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactServerRenderingTransaction.js","./instantiateReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/instantiateReactComponent.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactServerRenderingTransaction.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -13737,7 +13737,7 @@ PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
 
-},{"./CallbackQueue":"/Users/jingxiao/caterpillar/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/jingxiao/caterpillar/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/jingxiao/caterpillar/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/jingxiao/caterpillar/node_modules/react/lib/emptyFunction.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactTextComponent.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/delu/code/caterpillar/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/delu/code/caterpillar/node_modules/react/lib/PooledClass.js","./ReactPutListenerQueue":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPutListenerQueue.js","./Transaction":"/Users/delu/code/caterpillar/node_modules/react/lib/Transaction.js","./emptyFunction":"/Users/delu/code/caterpillar/node_modules/react/lib/emptyFunction.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactTextComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -13843,7 +13843,7 @@ ReactTextComponentFactory.type = ReactTextComponent;
 
 module.exports = ReactTextComponentFactory;
 
-},{"./DOMPropertyOperations":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactComponent.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./escapeTextForBrowser":"/Users/jingxiao/caterpillar/node_modules/react/lib/escapeTextForBrowser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
+},{"./DOMPropertyOperations":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMPropertyOperations.js","./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./ReactComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactComponent.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./escapeTextForBrowser":"/Users/delu/code/caterpillar/node_modules/react/lib/escapeTextForBrowser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ReactUpdates.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -14133,7 +14133,7 @@ var ReactUpdates = {
 module.exports = ReactUpdates;
 
 }).call(this,require('_process'))
-},{"./CallbackQueue":"/Users/jingxiao/caterpillar/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/jingxiao/caterpillar/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactPerf.js","./Transaction":"/Users/jingxiao/caterpillar/node_modules/react/lib/Transaction.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
+},{"./CallbackQueue":"/Users/delu/code/caterpillar/node_modules/react/lib/CallbackQueue.js","./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/delu/code/caterpillar/node_modules/react/lib/PooledClass.js","./ReactCurrentOwner":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCurrentOwner.js","./ReactPerf":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactPerf.js","./Transaction":"/Users/delu/code/caterpillar/node_modules/react/lib/Transaction.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SVGDOMPropertyConfig.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14225,7 +14225,7 @@ var SVGDOMPropertyConfig = {
 
 module.exports = SVGDOMPropertyConfig;
 
-},{"./DOMProperty":"/Users/jingxiao/caterpillar/node_modules/react/lib/DOMProperty.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
+},{"./DOMProperty":"/Users/delu/code/caterpillar/node_modules/react/lib/DOMProperty.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SelectEventPlugin.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14420,7 +14420,7 @@ var SelectEventPlugin = {
 
 module.exports = SelectEventPlugin;
 
-},{"./EventConstants":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/jingxiao/caterpillar/node_modules/react/lib/shallowEqual.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js","./EventPropagators":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPropagators.js","./ReactInputSelection":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInputSelection.js","./SyntheticEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticEvent.js","./getActiveElement":"/Users/delu/code/caterpillar/node_modules/react/lib/getActiveElement.js","./isTextInputElement":"/Users/delu/code/caterpillar/node_modules/react/lib/isTextInputElement.js","./keyOf":"/Users/delu/code/caterpillar/node_modules/react/lib/keyOf.js","./shallowEqual":"/Users/delu/code/caterpillar/node_modules/react/lib/shallowEqual.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ServerReactRootIndex.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14451,7 +14451,7 @@ var ServerReactRootIndex = {
 
 module.exports = ServerReactRootIndex;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/SimpleEventPlugin.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -14879,7 +14879,7 @@ var SimpleEventPlugin = {
 module.exports = SimpleEventPlugin;
 
 }).call(this,require('_process'))
-},{"./EventConstants":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/jingxiao/caterpillar/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","./keyOf":"/Users/jingxiao/caterpillar/node_modules/react/lib/keyOf.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
+},{"./EventConstants":"/Users/delu/code/caterpillar/node_modules/react/lib/EventConstants.js","./EventPluginUtils":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPluginUtils.js","./EventPropagators":"/Users/delu/code/caterpillar/node_modules/react/lib/EventPropagators.js","./SyntheticClipboardEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticClipboardEvent.js","./SyntheticDragEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticDragEvent.js","./SyntheticEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticEvent.js","./SyntheticFocusEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticFocusEvent.js","./SyntheticKeyboardEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticKeyboardEvent.js","./SyntheticMouseEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticMouseEvent.js","./SyntheticTouchEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticTouchEvent.js","./SyntheticUIEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticUIEvent.js","./SyntheticWheelEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticWheelEvent.js","./getEventCharCode":"/Users/delu/code/caterpillar/node_modules/react/lib/getEventCharCode.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","./keyOf":"/Users/delu/code/caterpillar/node_modules/react/lib/keyOf.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticClipboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14925,7 +14925,7 @@ SyntheticEvent.augmentClass(SyntheticClipboardEvent, ClipboardEventInterface);
 module.exports = SyntheticClipboardEvent;
 
 
-},{"./SyntheticEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticEvent.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticEvent.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticCompositionEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -14971,7 +14971,7 @@ SyntheticEvent.augmentClass(
 module.exports = SyntheticCompositionEvent;
 
 
-},{"./SyntheticEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticEvent.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticEvent.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticDragEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15010,7 +15010,7 @@ SyntheticMouseEvent.augmentClass(SyntheticDragEvent, DragEventInterface);
 
 module.exports = SyntheticDragEvent;
 
-},{"./SyntheticMouseEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15168,7 +15168,7 @@ PooledClass.addPoolingTo(SyntheticEvent, PooledClass.threeArgumentPooler);
 
 module.exports = SyntheticEvent;
 
-},{"./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/jingxiao/caterpillar/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/jingxiao/caterpillar/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventTarget.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./PooledClass":"/Users/delu/code/caterpillar/node_modules/react/lib/PooledClass.js","./emptyFunction":"/Users/delu/code/caterpillar/node_modules/react/lib/emptyFunction.js","./getEventTarget":"/Users/delu/code/caterpillar/node_modules/react/lib/getEventTarget.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticFocusEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15207,7 +15207,7 @@ SyntheticUIEvent.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 
 module.exports = SyntheticFocusEvent;
 
-},{"./SyntheticUIEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticUIEvent.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticUIEvent.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticInputEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -15254,7 +15254,7 @@ SyntheticEvent.augmentClass(
 module.exports = SyntheticInputEvent;
 
 
-},{"./SyntheticEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticEvent.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticEvent.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticKeyboardEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15341,7 +15341,7 @@ SyntheticUIEvent.augmentClass(SyntheticKeyboardEvent, KeyboardEventInterface);
 
 module.exports = SyntheticKeyboardEvent;
 
-},{"./SyntheticUIEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventModifierState.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticUIEvent.js","./getEventCharCode":"/Users/delu/code/caterpillar/node_modules/react/lib/getEventCharCode.js","./getEventKey":"/Users/delu/code/caterpillar/node_modules/react/lib/getEventKey.js","./getEventModifierState":"/Users/delu/code/caterpillar/node_modules/react/lib/getEventModifierState.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticMouseEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15424,7 +15424,7 @@ SyntheticUIEvent.augmentClass(SyntheticMouseEvent, MouseEventInterface);
 
 module.exports = SyntheticMouseEvent;
 
-},{"./SyntheticUIEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/jingxiao/caterpillar/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventModifierState.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticUIEvent.js","./ViewportMetrics":"/Users/delu/code/caterpillar/node_modules/react/lib/ViewportMetrics.js","./getEventModifierState":"/Users/delu/code/caterpillar/node_modules/react/lib/getEventModifierState.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticTouchEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15472,7 +15472,7 @@ SyntheticUIEvent.augmentClass(SyntheticTouchEvent, TouchEventInterface);
 
 module.exports = SyntheticTouchEvent;
 
-},{"./SyntheticUIEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventModifierState.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
+},{"./SyntheticUIEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticUIEvent.js","./getEventModifierState":"/Users/delu/code/caterpillar/node_modules/react/lib/getEventModifierState.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticUIEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15534,7 +15534,7 @@ SyntheticEvent.augmentClass(SyntheticUIEvent, UIEventInterface);
 
 module.exports = SyntheticUIEvent;
 
-},{"./SyntheticEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventTarget.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
+},{"./SyntheticEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticEvent.js","./getEventTarget":"/Users/delu/code/caterpillar/node_modules/react/lib/getEventTarget.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticWheelEvent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15595,7 +15595,7 @@ SyntheticMouseEvent.augmentClass(SyntheticWheelEvent, WheelEventInterface);
 
 module.exports = SyntheticWheelEvent;
 
-},{"./SyntheticMouseEvent":"/Users/jingxiao/caterpillar/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/Transaction.js":[function(require,module,exports){
+},{"./SyntheticMouseEvent":"/Users/delu/code/caterpillar/node_modules/react/lib/SyntheticMouseEvent.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/Transaction.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -15836,7 +15836,7 @@ var Transaction = {
 module.exports = Transaction;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
+},{"./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/ViewportMetrics.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15868,7 +15868,7 @@ var ViewportMetrics = {
 
 module.exports = ViewportMetrics;
 
-},{"./getUnboundedScrollPosition":"/Users/jingxiao/caterpillar/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
+},{"./getUnboundedScrollPosition":"/Users/delu/code/caterpillar/node_modules/react/lib/getUnboundedScrollPosition.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/accumulateInto.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -15934,7 +15934,7 @@ function accumulateInto(current, next) {
 module.exports = accumulateInto;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/adler32.js":[function(require,module,exports){
+},{"./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/adler32.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -15968,7 +15968,7 @@ function adler32(data) {
 
 module.exports = adler32;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/camelize.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/camelize.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16000,7 +16000,7 @@ function camelize(string) {
 
 module.exports = camelize;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/camelizeStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -16042,7 +16042,7 @@ function camelizeStyleName(string) {
 
 module.exports = camelizeStyleName;
 
-},{"./camelize":"/Users/jingxiao/caterpillar/node_modules/react/lib/camelize.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/containsNode.js":[function(require,module,exports){
+},{"./camelize":"/Users/delu/code/caterpillar/node_modules/react/lib/camelize.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/containsNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16086,7 +16086,7 @@ function containsNode(outerNode, innerNode) {
 
 module.exports = containsNode;
 
-},{"./isTextNode":"/Users/jingxiao/caterpillar/node_modules/react/lib/isTextNode.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/createArrayFrom.js":[function(require,module,exports){
+},{"./isTextNode":"/Users/delu/code/caterpillar/node_modules/react/lib/isTextNode.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/createArrayFrom.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16172,7 +16172,7 @@ function createArrayFrom(obj) {
 
 module.exports = createArrayFrom;
 
-},{"./toArray":"/Users/jingxiao/caterpillar/node_modules/react/lib/toArray.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
+},{"./toArray":"/Users/delu/code/caterpillar/node_modules/react/lib/toArray.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/createFullPageComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16233,7 +16233,7 @@ function createFullPageComponent(tag) {
 module.exports = createFullPageComponent;
 
 }).call(this,require('_process'))
-},{"./ReactCompositeComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
+},{"./ReactCompositeComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactCompositeComponent.js","./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/createNodesFromMarkup.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16323,7 +16323,7 @@ function createNodesFromMarkup(markup, handleScript) {
 module.exports = createNodesFromMarkup;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFrom":"/Users/jingxiao/caterpillar/node_modules/react/lib/createArrayFrom.js","./getMarkupWrap":"/Users/jingxiao/caterpillar/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./createArrayFrom":"/Users/delu/code/caterpillar/node_modules/react/lib/createArrayFrom.js","./getMarkupWrap":"/Users/delu/code/caterpillar/node_modules/react/lib/getMarkupWrap.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/dangerousStyleValue.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16381,7 +16381,7 @@ function dangerousStyleValue(name, value) {
 
 module.exports = dangerousStyleValue;
 
-},{"./CSSProperty":"/Users/jingxiao/caterpillar/node_modules/react/lib/CSSProperty.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/deprecated.js":[function(require,module,exports){
+},{"./CSSProperty":"/Users/delu/code/caterpillar/node_modules/react/lib/CSSProperty.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/deprecated.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16432,7 +16432,7 @@ function deprecated(namespace, oldName, newName, ctx, fn) {
 module.exports = deprecated;
 
 }).call(this,require('_process'))
-},{"./Object.assign":"/Users/jingxiao/caterpillar/node_modules/react/lib/Object.assign.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
+},{"./Object.assign":"/Users/delu/code/caterpillar/node_modules/react/lib/Object.assign.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/emptyFunction.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16466,7 +16466,7 @@ emptyFunction.thatReturnsArgument = function(arg) { return arg; };
 
 module.exports = emptyFunction;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/emptyObject.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16490,7 +16490,7 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = emptyObject;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/escapeTextForBrowser.js":[function(require,module,exports){
+},{"_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/escapeTextForBrowser.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16531,7 +16531,7 @@ function escapeTextForBrowser(text) {
 
 module.exports = escapeTextForBrowser;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/flattenChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -16600,7 +16600,7 @@ function flattenChildren(children) {
 module.exports = flattenChildren;
 
 }).call(this,require('_process'))
-},{"./ReactTextComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactTextComponent.js","./traverseAllChildren":"/Users/jingxiao/caterpillar/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/focusNode.js":[function(require,module,exports){
+},{"./ReactTextComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactTextComponent.js","./traverseAllChildren":"/Users/delu/code/caterpillar/node_modules/react/lib/traverseAllChildren.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/focusNode.js":[function(require,module,exports){
 /**
  * Copyright 2014, Facebook, Inc.
  * All rights reserved.
@@ -16629,7 +16629,7 @@ function focusNode(node) {
 
 module.exports = focusNode;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/forEachAccumulated.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16660,7 +16660,7 @@ var forEachAccumulated = function(arr, cb, scope) {
 
 module.exports = forEachAccumulated;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/getActiveElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16689,7 +16689,7 @@ function getActiveElement() /*?DOMElement*/ {
 
 module.exports = getActiveElement;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/getEventCharCode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16741,7 +16741,7 @@ function getEventCharCode(nativeEvent) {
 
 module.exports = getEventCharCode;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/getEventKey.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16846,7 +16846,7 @@ function getEventKey(nativeEvent) {
 
 module.exports = getEventKey;
 
-},{"./getEventCharCode":"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventCharCode.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
+},{"./getEventCharCode":"/Users/delu/code/caterpillar/node_modules/react/lib/getEventCharCode.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/getEventModifierState.js":[function(require,module,exports){
 /**
  * Copyright 2013 Facebook, Inc.
  * All rights reserved.
@@ -16893,7 +16893,7 @@ function getEventModifierState(nativeEvent) {
 
 module.exports = getEventModifierState;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/getEventTarget.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -16924,7 +16924,7 @@ function getEventTarget(nativeEvent) {
 
 module.exports = getEventTarget;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/getMarkupWrap.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17041,7 +17041,7 @@ function getMarkupWrap(nodeName) {
 module.exports = getMarkupWrap;
 
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/getNodeForCharacterOffset.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17116,7 +17116,7 @@ function getNodeForCharacterOffset(root, offset) {
 
 module.exports = getNodeForCharacterOffset;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/getReactRootElementInContainer.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17151,7 +17151,7 @@ function getReactRootElementInContainer(container) {
 
 module.exports = getReactRootElementInContainer;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/getTextContentAccessor.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17188,7 +17188,7 @@ function getTextContentAccessor() {
 
 module.exports = getTextContentAccessor;
 
-},{"./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/getUnboundedScrollPosition.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17228,7 +17228,7 @@ function getUnboundedScrollPosition(scrollable) {
 
 module.exports = getUnboundedScrollPosition;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/hyphenate.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17261,7 +17261,7 @@ function hyphenate(string) {
 
 module.exports = hyphenate;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/hyphenateStyleName.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17302,7 +17302,7 @@ function hyphenateStyleName(string) {
 
 module.exports = hyphenateStyleName;
 
-},{"./hyphenate":"/Users/jingxiao/caterpillar/node_modules/react/lib/hyphenate.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
+},{"./hyphenate":"/Users/delu/code/caterpillar/node_modules/react/lib/hyphenate.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/instantiateReactComponent.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17416,7 +17416,7 @@ function instantiateReactComponent(element, parentCompositeType) {
 module.exports = instantiateReactComponent;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactEmptyComponent.js","./ReactLegacyElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactLegacyElement.js","./ReactNativeComponent":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactNativeComponent.js","./warning":"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactEmptyComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactEmptyComponent.js","./ReactLegacyElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactLegacyElement.js","./ReactNativeComponent":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactNativeComponent.js","./warning":"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17473,7 +17473,7 @@ var invariant = function(condition, format, a, b, c, d, e, f) {
 module.exports = invariant;
 
 }).call(this,require('_process'))
-},{"_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
+},{"_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/isEventSupported.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17538,7 +17538,7 @@ function isEventSupported(eventNameSuffix, capture) {
 
 module.exports = isEventSupported;
 
-},{"./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/isNode.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/isNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17566,7 +17566,7 @@ function isNode(object) {
 
 module.exports = isNode;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/isTextInputElement.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17610,7 +17610,7 @@ function isTextInputElement(elem) {
 
 module.exports = isTextInputElement;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/isTextNode.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17635,7 +17635,7 @@ function isTextNode(object) {
 
 module.exports = isTextNode;
 
-},{"./isNode":"/Users/jingxiao/caterpillar/node_modules/react/lib/isNode.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
+},{"./isNode":"/Users/delu/code/caterpillar/node_modules/react/lib/isNode.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/joinClasses.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17676,7 +17676,7 @@ function joinClasses(className/*, ... */) {
 
 module.exports = joinClasses;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/keyMirror.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17731,7 +17731,7 @@ var keyMirror = function(obj) {
 module.exports = keyMirror;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/keyOf.js":[function(require,module,exports){
+},{"./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/keyOf.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17767,7 +17767,7 @@ var keyOf = function(oneKeyObj) {
 
 module.exports = keyOf;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/mapObject.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/mapObject.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17820,7 +17820,7 @@ function mapObject(object, callback, context) {
 
 module.exports = mapObject;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/memoizeStringOnly.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17854,7 +17854,7 @@ function memoizeStringOnly(callback) {
 
 module.exports = memoizeStringOnly;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/monitorCodeUse.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/monitorCodeUse.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -17888,7 +17888,7 @@ function monitorCodeUse(eventName, data) {
 module.exports = monitorCodeUse;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
+},{"./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/onlyChild.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -17928,7 +17928,7 @@ function onlyChild(children) {
 module.exports = onlyChild;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/performance.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/performance.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17956,7 +17956,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = performance || {};
 
-},{"./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/performanceNow.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -17984,7 +17984,7 @@ var performanceNow = performance.now.bind(performance);
 
 module.exports = performanceNow;
 
-},{"./performance":"/Users/jingxiao/caterpillar/node_modules/react/lib/performance.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
+},{"./performance":"/Users/delu/code/caterpillar/node_modules/react/lib/performance.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/setInnerHTML.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18062,7 +18062,7 @@ if (ExecutionEnvironment.canUseDOM) {
 
 module.exports = setInnerHTML;
 
-},{"./ExecutionEnvironment":"/Users/jingxiao/caterpillar/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
+},{"./ExecutionEnvironment":"/Users/delu/code/caterpillar/node_modules/react/lib/ExecutionEnvironment.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/shallowEqual.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18106,7 +18106,7 @@ function shallowEqual(objA, objB) {
 
 module.exports = shallowEqual;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/shouldUpdateReactComponent.js":[function(require,module,exports){
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -18144,7 +18144,7 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 
 module.exports = shouldUpdateReactComponent;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/react/lib/toArray.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/react/lib/toArray.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -18216,7 +18216,7 @@ function toArray(obj) {
 module.exports = toArray;
 
 }).call(this,require('_process'))
-},{"./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
+},{"./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/traverseAllChildren.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-2014, Facebook, Inc.
@@ -18399,7 +18399,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 module.exports = traverseAllChildren;
 
 }).call(this,require('_process'))
-},{"./ReactElement":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/jingxiao/caterpillar/node_modules/react/lib/ReactInstanceHandles.js","./invariant":"/Users/jingxiao/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/lib/warning.js":[function(require,module,exports){
+},{"./ReactElement":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactElement.js","./ReactInstanceHandles":"/Users/delu/code/caterpillar/node_modules/react/lib/ReactInstanceHandles.js","./invariant":"/Users/delu/code/caterpillar/node_modules/react/lib/invariant.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/lib/warning.js":[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014, Facebook, Inc.
@@ -18444,14 +18444,14 @@ if ("production" !== process.env.NODE_ENV) {
 module.exports = warning;
 
 }).call(this,require('_process'))
-},{"./emptyFunction":"/Users/jingxiao/caterpillar/node_modules/react/lib/emptyFunction.js","_process":"/Users/jingxiao/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/react/react.js":[function(require,module,exports){
+},{"./emptyFunction":"/Users/delu/code/caterpillar/node_modules/react/lib/emptyFunction.js","_process":"/Users/delu/code/caterpillar/node_modules/browserify/node_modules/process/browser.js"}],"/Users/delu/code/caterpillar/node_modules/react/react.js":[function(require,module,exports){
 module.exports = require('./lib/React');
 
-},{"./lib/React":"/Users/jingxiao/caterpillar/node_modules/react/lib/React.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/index.js":[function(require,module,exports){
+},{"./lib/React":"/Users/delu/code/caterpillar/node_modules/react/lib/React.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/index.js":[function(require,module,exports){
 
 module.exports = require('./lib/');
 
-},{"./lib/":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/index.js":[function(require,module,exports){
+},{"./lib/":"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/index.js":[function(require,module,exports){
 
 /**
  * Module dependencies.
@@ -18540,7 +18540,7 @@ exports.connect = lookup;
 exports.Manager = require('./manager');
 exports.Socket = require('./socket');
 
-},{"./manager":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/manager.js","./socket":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/socket.js","./url":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/url.js","debug":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/debug/debug.js","socket.io-parser":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/manager.js":[function(require,module,exports){
+},{"./manager":"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/manager.js","./socket":"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/socket.js","./url":"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/url.js","debug":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/debug/debug.js","socket.io-parser":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/manager.js":[function(require,module,exports){
 
 /**
  * Module dependencies.
@@ -19045,7 +19045,7 @@ Manager.prototype.onreconnect = function(){
   this.emitAll('reconnect', attempt);
 };
 
-},{"./on":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/on.js","./socket":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/socket.js","./url":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/url.js","backo2":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/backo2/index.js","component-bind":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/component-bind/index.js","component-emitter":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/debug/debug.js","engine.io-client":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/index.js","indexof":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/indexof/index.js","object-component":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/object-component/index.js","socket.io-parser":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/on.js":[function(require,module,exports){
+},{"./on":"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/on.js","./socket":"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/socket.js","./url":"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/url.js","backo2":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/backo2/index.js","component-bind":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/component-bind/index.js","component-emitter":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/debug/debug.js","engine.io-client":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/index.js","indexof":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/indexof/index.js","object-component":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/object-component/index.js","socket.io-parser":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/on.js":[function(require,module,exports){
 
 /**
  * Module exports.
@@ -19071,7 +19071,7 @@ function on(obj, ev, fn) {
   };
 }
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/socket.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/socket.js":[function(require,module,exports){
 
 /**
  * Module dependencies.
@@ -19458,7 +19458,7 @@ Socket.prototype.disconnect = function(){
   return this;
 };
 
-},{"./on":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/on.js","component-bind":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/component-bind/index.js","component-emitter":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/debug/debug.js","has-binary":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/has-binary/index.js","socket.io-parser":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/index.js","to-array":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/to-array/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/lib/url.js":[function(require,module,exports){
+},{"./on":"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/on.js","component-bind":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/component-bind/index.js","component-emitter":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/debug/debug.js","has-binary":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/has-binary/index.js","socket.io-parser":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/index.js","to-array":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/to-array/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/lib/url.js":[function(require,module,exports){
 (function (global){
 
 /**
@@ -19535,7 +19535,7 @@ function url(uri, loc){
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"debug":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/debug/debug.js","parseuri":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/parseuri/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/backo2/index.js":[function(require,module,exports){
+},{"debug":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/debug/debug.js","parseuri":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/parseuri/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/backo2/index.js":[function(require,module,exports){
 
 /**
  * Expose `Backoff`.
@@ -19622,7 +19622,7 @@ Backoff.prototype.setJitter = function(jitter){
 };
 
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/component-bind/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/component-bind/index.js":[function(require,module,exports){
 /**
  * Slice reference.
  */
@@ -19647,7 +19647,7 @@ module.exports = function(obj, fn){
   }
 };
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js":[function(require,module,exports){
 
 /**
  * Expose `Emitter`.
@@ -19813,7 +19813,7 @@ Emitter.prototype.hasListeners = function(event){
   return !! this.listeners(event).length;
 };
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/debug/debug.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/debug/debug.js":[function(require,module,exports){
 
 /**
  * Expose `debug()` as the module.
@@ -19952,11 +19952,11 @@ try {
   if (window.localStorage) debug.enable(localStorage.debug);
 } catch(e){}
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/index.js":[function(require,module,exports){
 
 module.exports =  require('./lib/');
 
-},{"./lib/":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/index.js":[function(require,module,exports){
+},{"./lib/":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/index.js":[function(require,module,exports){
 
 module.exports = require('./socket');
 
@@ -19968,7 +19968,7 @@ module.exports = require('./socket');
  */
 module.exports.parser = require('engine.io-parser');
 
-},{"./socket":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/socket.js","engine.io-parser":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/socket.js":[function(require,module,exports){
+},{"./socket":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/socket.js","engine.io-parser":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/socket.js":[function(require,module,exports){
 (function (global){
 /**
  * Module dependencies.
@@ -20677,7 +20677,7 @@ Socket.prototype.filterUpgrades = function (upgrades) {
 };
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./transport":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js","./transports":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/index.js","component-emitter":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","engine.io-parser":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js","indexof":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/indexof/index.js","parsejson":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/index.js","parseqs":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js","parseuri":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js":[function(require,module,exports){
+},{"./transport":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js","./transports":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/index.js","component-emitter":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","engine.io-parser":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js","indexof":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/indexof/index.js","parsejson":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/index.js","parseqs":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js","parseuri":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js":[function(require,module,exports){
 /**
  * Module dependencies.
  */
@@ -20838,7 +20838,7 @@ Transport.prototype.onClose = function () {
   this.emit('close');
 };
 
-},{"component-emitter":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js","engine.io-parser":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/index.js":[function(require,module,exports){
+},{"component-emitter":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js","engine.io-parser":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/index.js":[function(require,module,exports){
 (function (global){
 /**
  * Module dependencies
@@ -20895,7 +20895,7 @@ function polling(opts){
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./polling-jsonp":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-jsonp.js","./polling-xhr":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-xhr.js","./websocket":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/websocket.js","xmlhttprequest":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-jsonp.js":[function(require,module,exports){
+},{"./polling-jsonp":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-jsonp.js","./polling-xhr":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-xhr.js","./websocket":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/websocket.js","xmlhttprequest":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-jsonp.js":[function(require,module,exports){
 (function (global){
 
 /**
@@ -21132,7 +21132,7 @@ JSONPPolling.prototype.doWrite = function (data, fn) {
 };
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./polling":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling.js","component-inherit":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-xhr.js":[function(require,module,exports){
+},{"./polling":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling.js","component-inherit":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling-xhr.js":[function(require,module,exports){
 (function (global){
 /**
  * Module requirements.
@@ -21520,7 +21520,7 @@ function unloadHandler() {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./polling":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling.js","component-emitter":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js","component-inherit":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js","debug":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","xmlhttprequest":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling.js":[function(require,module,exports){
+},{"./polling":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling.js","component-emitter":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js","component-inherit":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js","debug":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","xmlhttprequest":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/polling.js":[function(require,module,exports){
 /**
  * Module dependencies.
  */
@@ -21767,7 +21767,7 @@ Polling.prototype.uri = function(){
   return schema + '://' + this.hostname + port + this.path + query;
 };
 
-},{"../transport":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js","component-inherit":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js","debug":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","engine.io-parser":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js","parseqs":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js","xmlhttprequest":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/websocket.js":[function(require,module,exports){
+},{"../transport":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js","component-inherit":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js","debug":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","engine.io-parser":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js","parseqs":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js","xmlhttprequest":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transports/websocket.js":[function(require,module,exports){
 /**
  * Module dependencies.
  */
@@ -22007,7 +22007,7 @@ WS.prototype.check = function(){
   return !!WebSocket && !('__initialize' in WebSocket && this.name === WS.prototype.name);
 };
 
-},{"../transport":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js","component-inherit":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js","debug":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","engine.io-parser":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js","parseqs":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js","ws":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/browser.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js":[function(require,module,exports){
+},{"../transport":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/transport.js","component-inherit":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js","debug":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js","engine.io-parser":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js","parseqs":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js","ws":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/browser.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/lib/xmlhttprequest.js":[function(require,module,exports){
 // browser shim for xmlhttprequest module
 var hasCORS = require('has-cors');
 
@@ -22045,7 +22045,7 @@ module.exports = function(opts) {
   }
 }
 
-},{"has-cors":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js":[function(require,module,exports){
+},{"has-cors":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/component-inherit/index.js":[function(require,module,exports){
 
 module.exports = function(a, b){
   var fn = function(){};
@@ -22053,7 +22053,7 @@ module.exports = function(a, b){
   a.prototype = new fn;
   a.prototype.constructor = a;
 };
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/browser.js":[function(require,module,exports){
 
 /**
  * This is the web browser implementation of `debug()`.
@@ -22202,7 +22202,7 @@ function load() {
 
 exports.enable(load());
 
-},{"./debug":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/debug.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/debug.js":[function(require,module,exports){
+},{"./debug":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/debug.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/debug.js":[function(require,module,exports){
 
 /**
  * This is the common logic for both the Node.js and web browser
@@ -22401,7 +22401,7 @@ function coerce(val) {
   return val;
 }
 
-},{"ms":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/node_modules/ms/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/node_modules/ms/index.js":[function(require,module,exports){
+},{"ms":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/node_modules/ms/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/debug/node_modules/ms/index.js":[function(require,module,exports){
 /**
  * Helpers.
  */
@@ -22514,7 +22514,7 @@ function plural(ms, n, name) {
   return Math.ceil(ms / n) + ' ' + name + 's';
 }
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/browser.js":[function(require,module,exports){
 (function (global){
 /**
  * Module dependencies.
@@ -23112,7 +23112,7 @@ exports.decodePayloadAsBinary = function (data, binaryType, callback) {
 };
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./keys":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/keys.js","after":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/after/index.js","arraybuffer.slice":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/arraybuffer.slice/index.js","base64-arraybuffer":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/base64-arraybuffer/lib/base64-arraybuffer.js","blob":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/index.js","has-binary":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/index.js","utf8":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/utf8.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/keys.js":[function(require,module,exports){
+},{"./keys":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/keys.js","after":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/after/index.js","arraybuffer.slice":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/arraybuffer.slice/index.js","base64-arraybuffer":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/base64-arraybuffer/lib/base64-arraybuffer.js","blob":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/index.js","has-binary":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/index.js","utf8":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/utf8.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/lib/keys.js":[function(require,module,exports){
 
 /**
  * Gets the keys for an object.
@@ -23133,7 +23133,7 @@ module.exports = Object.keys || function keys (obj){
   return arr;
 };
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/after/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/after/index.js":[function(require,module,exports){
 module.exports = after
 
 function after(count, callback, err_cb) {
@@ -23163,7 +23163,7 @@ function after(count, callback, err_cb) {
 
 function noop() {}
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/arraybuffer.slice/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/arraybuffer.slice/index.js":[function(require,module,exports){
 /**
  * An abstraction for slicing an arraybuffer even when
  * ArrayBuffer.prototype.slice is not supported
@@ -23194,7 +23194,7 @@ module.exports = function(arraybuffer, start, end) {
   return result.buffer;
 };
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/base64-arraybuffer/lib/base64-arraybuffer.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/base64-arraybuffer/lib/base64-arraybuffer.js":[function(require,module,exports){
 /*
  * base64-arraybuffer
  * https://github.com/niklasvh/base64-arraybuffer
@@ -23255,7 +23255,7 @@ module.exports = function(arraybuffer, start, end) {
   };
 })("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/");
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/blob/index.js":[function(require,module,exports){
 (function (global){
 /**
  * Create a blob builder even when vendor prefixes exist
@@ -23308,7 +23308,7 @@ module.exports = (function() {
 })();
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/index.js":[function(require,module,exports){
 (function (global){
 
 /*
@@ -23370,12 +23370,12 @@ function hasBinary(data) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"isarray":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js":[function(require,module,exports){
+},{"isarray":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js":[function(require,module,exports){
 module.exports = Array.isArray || function (arr) {
   return Object.prototype.toString.call(arr) == '[object Array]';
 };
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/utf8.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/utf8/utf8.js":[function(require,module,exports){
 (function (global){
 /*! http://mths.be/utf8js v2.0.0 by @mathias */
 ;(function(root) {
@@ -23618,7 +23618,7 @@ module.exports = Array.isArray || function (arr) {
 }(this));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/index.js":[function(require,module,exports){
 
 /**
  * Module dependencies.
@@ -23643,7 +23643,7 @@ try {
   module.exports = false;
 }
 
-},{"global":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/node_modules/global/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/node_modules/global/index.js":[function(require,module,exports){
+},{"global":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/node_modules/global/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/has-cors/node_modules/global/index.js":[function(require,module,exports){
 
 /**
  * Returns `this`. Execute this without a "context" (i.e. without it being
@@ -23653,7 +23653,7 @@ try {
 
 module.exports = (function () { return this; })();
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parsejson/index.js":[function(require,module,exports){
 (function (global){
 /**
  * JSON parse.
@@ -23688,7 +23688,7 @@ module.exports = function parsejson(data) {
   }
 };
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseqs/index.js":[function(require,module,exports){
 /**
  * Compiles a querystring
  * Returns string representation of the object
@@ -23727,7 +23727,7 @@ exports.decode = function(qs){
   return qry;
 };
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/parseuri/index.js":[function(require,module,exports){
 /**
  * Parses an URI
  *
@@ -23768,7 +23768,7 @@ module.exports = function parseuri(str) {
     return uri;
 };
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/browser.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/lib/browser.js":[function(require,module,exports){
 
 /**
  * Module dependencies.
@@ -23813,7 +23813,7 @@ function ws(uri, protocols, opts) {
 
 if (WebSocket) ws.prototype = WebSocket.prototype;
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/has-binary/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/has-binary/index.js":[function(require,module,exports){
 (function (global){
 
 /*
@@ -23875,9 +23875,9 @@ function hasBinary(data) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"isarray":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/has-binary/node_modules/isarray/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/has-binary/node_modules/isarray/index.js":[function(require,module,exports){
-arguments[4]["/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js"][0].apply(exports,arguments)
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/indexof/index.js":[function(require,module,exports){
+},{"isarray":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/has-binary/node_modules/isarray/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/has-binary/node_modules/isarray/index.js":[function(require,module,exports){
+arguments[4]["/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js"][0].apply(exports,arguments)
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/indexof/index.js":[function(require,module,exports){
 
 var indexOf = [].indexOf;
 
@@ -23888,7 +23888,7 @@ module.exports = function(arr, obj){
   }
   return -1;
 };
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/object-component/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/object-component/index.js":[function(require,module,exports){
 
 /**
  * HOP ref.
@@ -23973,7 +23973,7 @@ exports.length = function(obj){
 exports.isEmpty = function(obj){
   return 0 == exports.length(obj);
 };
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/parseuri/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/parseuri/index.js":[function(require,module,exports){
 /**
  * Parses an URI
  *
@@ -24000,7 +24000,7 @@ module.exports = function parseuri(str) {
   return uri;
 };
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/binary.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/binary.js":[function(require,module,exports){
 (function (global){
 /*global Blob,File*/
 
@@ -24145,7 +24145,7 @@ exports.removeBlobs = function(data, callback) {
 };
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./is-buffer":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/is-buffer.js","isarray":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/isarray/index.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/index.js":[function(require,module,exports){
+},{"./is-buffer":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/is-buffer.js","isarray":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/isarray/index.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/index.js":[function(require,module,exports){
 
 /**
  * Module dependencies.
@@ -24547,7 +24547,7 @@ function error(data){
   };
 }
 
-},{"./binary":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/binary.js","./is-buffer":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/is-buffer.js","component-emitter":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/debug/debug.js","isarray":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/isarray/index.js","json3":"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/json3/lib/json3.js"}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/is-buffer.js":[function(require,module,exports){
+},{"./binary":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/binary.js","./is-buffer":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/is-buffer.js","component-emitter":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/component-emitter/index.js","debug":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/debug/debug.js","isarray":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/isarray/index.js","json3":"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/json3/lib/json3.js"}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/is-buffer.js":[function(require,module,exports){
 (function (global){
 
 module.exports = isBuf;
@@ -24564,9 +24564,9 @@ function isBuf(obj) {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/isarray/index.js":[function(require,module,exports){
-arguments[4]["/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/has-binary/node_modules/isarray/index.js"][0].apply(exports,arguments)
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/json3/lib/json3.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/isarray/index.js":[function(require,module,exports){
+arguments[4]["/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/engine.io-parser/node_modules/has-binary/node_modules/isarray/index.js"][0].apply(exports,arguments)
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/socket.io-parser/node_modules/json3/lib/json3.js":[function(require,module,exports){
 /*! JSON v3.2.6 | http://bestiejs.github.io/json3 | Copyright 2012-2013, Kit Cambridge | http://kit.mit-license.org */
 ;(function (window) {
   // Convenience aliases.
@@ -25429,7 +25429,7 @@ arguments[4]["/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_mod
   }
 }(this));
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/socket.io-client/node_modules/to-array/index.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/socket.io-client/node_modules/to-array/index.js":[function(require,module,exports){
 module.exports = toArray
 
 function toArray(list, index) {
@@ -25444,7 +25444,7 @@ function toArray(list, index) {
     return array
 }
 
-},{}],"/Users/jingxiao/caterpillar/node_modules/underscore/underscore.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/node_modules/underscore/underscore.js":[function(require,module,exports){
 //     Underscore.js 1.7.0
 //     http://underscorejs.org
 //     (c) 2009-2014 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
@@ -26861,7 +26861,7 @@ function toArray(list, index) {
   }
 }.call(this));
 
-},{}],"/Users/jingxiao/caterpillar/public/js/src/face-capture.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/public/js/src/face-capture.js":[function(require,module,exports){
 var FACE_RATIO = 4/3;
 var K = 1.6; //god damn canvas doing weird scaling
 var WIDTH = 30;
@@ -26905,7 +26905,7 @@ module.exports = {
 }
 
 
-},{}],"/Users/jingxiao/caterpillar/public/js/src/features.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/public/js/src/features.js":[function(require,module,exports){
 var NOSE = {
     LEFT: 35,
     RIGHT: 39,
@@ -26994,7 +26994,7 @@ var features = {
 module.exports = features;
 
 
-},{}],"/Users/jingxiao/caterpillar/public/js/src/gesture.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/public/js/src/gesture.js":[function(require,module,exports){
 var EYEBROWS_THRESH = 0.05;
 var MOUTH_THRESH = 0.05;
 
@@ -27038,7 +27038,7 @@ var gesture = {
 module.exports = gesture;
 
 
-},{}],"/Users/jingxiao/caterpillar/public/js/src/store.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/public/js/src/store.js":[function(require,module,exports){
 // this is not the final api, i'm literally hacking this
 var store = {
     // example data, please change!
@@ -27090,7 +27090,7 @@ setInterval(function() {
 module.exports = store;
 
 
-},{}],"/Users/jingxiao/caterpillar/public/js/src/tracker.js":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/public/js/src/tracker.js":[function(require,module,exports){
 // globals: clm, pModel, requestAnimFrame
 
 var tracker = {
@@ -27181,7 +27181,7 @@ var tracker = {
 module.exports = tracker;
 
 
-},{}],"/Users/jingxiao/caterpillar/public/js/src/view.jsx":[function(require,module,exports){
+},{}],"/Users/delu/code/caterpillar/public/js/src/view.jsx":[function(require,module,exports){
 var React = require('react');
 var _ = require('underscore');
 
@@ -27195,15 +27195,29 @@ var Player = React.createClass({displayName: "Player",
         var style = {
             transform: transformStyle,
             webkitTransform: transformStyle,
+            top: 0,
+            left: 0,
             position: 'absolute',
-            top: -20, // height: 40
-            left: -15, // width: 30
             transition: 'transform 0.1s linear',
             webkitTransition: '-webkit-transform 0.1s linear',
         }
+        var c1 = {
+            position: 'absolute',
+            top: -28, // height: 40
+            left: -15, // width: 30
+            width: 175,
+            height: 55
+        }
+        var c2 = {
+            position: 'absolute',
+            top: -20, // height: 40
+            left: -15, // width: 30
+            borderRadius: 20
+        }
         return (
-            React.createElement("div", {className: "caterpillar", style: style}, 
-                React.createElement("img", {className: "caterpillar-face", style: {borderRadius: 20}, src: this.props.img})
+            React.createElement("div", {style: style}, 
+                React.createElement("img", {style: c1, src: "../../images/caterpillar-l.png"}), 
+                React.createElement("img", {style: c2, src: this.props.img})
             )
         );
     }
@@ -27223,13 +27237,19 @@ var Hole = React.createClass({displayName: "Hole",
 })
 
 var Food = React.createClass({displayName: "Food",
+    getInitialState: function() {
+        return {
+            rotation: Math.floor((Math.random()*360)+1)
+        };
+    },
     render: function() {
-        var rotation = Math.floor((Math.random()*360)+1);
-        var transformStyle = 'rotate('+rotation+'deg)';
+        var transformStyle = 'translate(-10px, -10px) rotate('+this.state.rotation+'deg)';
         var style = {
             transform: transformStyle,
             webkitTransform: transformStyle,
             position: 'absolute',
+            width: 20,
+            height: 20,
             top: this.props.position.y,
             left: this.props.position.x
         }
@@ -27280,7 +27300,7 @@ module.exports = {
 }
 
 
-},{"react":"/Users/jingxiao/caterpillar/node_modules/react/react.js","underscore":"/Users/jingxiao/caterpillar/node_modules/underscore/underscore.js"}],"/Users/jingxiao/caterpillar/utils/uuid.js":[function(require,module,exports){
+},{"react":"/Users/delu/code/caterpillar/node_modules/react/react.js","underscore":"/Users/delu/code/caterpillar/node_modules/underscore/underscore.js"}],"/Users/delu/code/caterpillar/utils/uuid.js":[function(require,module,exports){
 module.exports = function generateUUID(){
     var d = new Date().getTime();
     var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
