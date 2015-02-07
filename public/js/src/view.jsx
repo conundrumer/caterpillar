@@ -11,23 +11,23 @@ var Player = React.createClass({
         var style = {
             transform: transformStyle,
             webkitTransform: transformStyle,
+            top: 0,
+            left: 0,
             position: 'absolute',
-            top: -20, // height: 40
-            left: -15, // width: 30
             transition: 'transform 0.1s linear',
             webkitTransition: '-webkit-transform 0.1s linear',
         }
         var c1 = {
             position: 'absolute',
-            top: -8,
-            left: 0,
+            top: -28, // height: 40
+            left: -15, // width: 30
             width: 175,
             height: 55
         }
         var c2 = {
             position: 'absolute',
-            top: 0,
-            left: 0,
+            top: -20, // height: 40
+            left: -15, // width: 30
             borderRadius: 20
         }
         return (
@@ -53,13 +53,19 @@ var Hole = React.createClass({
 })
 
 var Food = React.createClass({
+    getInitialState: function() {
+        return {
+            rotation: Math.floor((Math.random()*360)+1)
+        };
+    },
     render: function() {
-        var rotation = Math.floor((Math.random()*360)+1);
-        var transformStyle = 'rotate('+rotation+'deg)';
+        var transformStyle = 'translate(-10px, -10px) rotate('+this.state.rotation+'deg)';
         var style = {
             transform: transformStyle,
             webkitTransform: transformStyle,
             position: 'absolute',
+            width: 20,
+            height: 20,
             top: this.props.position.y,
             left: this.props.position.x
         }
