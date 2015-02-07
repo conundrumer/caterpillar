@@ -6,11 +6,13 @@ var Player = React.createClass({
         var rotation = this.props.heading + Math.PI/2;
         var transformStyle = 'translateX('+this.props.position.x+'px) translateY('+this.props.position.y+'px) rotate('+rotation+'rad)';
         var style = {
+            transform: transformStyle,
+            webkitTransform: transformStyle,
             position: 'absolute',
             top: -20, // height: 40
             left: -15, // width: 30
-            transform: transformStyle,
-            webkitTransform: transformStyle
+            transition: 'transform 0.1s linear',
+            webkitTransition: '-webkit-transform 0.1s linear',
         }
         return (
             <div style={style}>
