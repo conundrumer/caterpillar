@@ -4,12 +4,32 @@
     <meta charset="utf-8">
     <title>when was the last time you were happy to be alive</title>
     <link rel="stylesheet" href="stylesheets/css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/build/bundle.js"></script>
 </head>
 
 <body id="home">
 
-    <h1>when was the last time you were happy to be alive</h1>
+    <h1 class="intro-view">when was the last time you were happy to be alive</h1>
+
+    <button class="intro-view" id="dummy-webcam">Accept webcam</button>
+
+    <canvas class="intro-view" id="intro-caterpillar">
+    </canvas>
+
+    <button class="intro-view" id="go-btn" hidden>Go</button>
+
+    <div class="grid-container" id="game-view" hidden>
+    	<row>
+		    <div class="col-3-4" id="canvas-container">
+		    	<canvas id="game-canvas"></canvas>
+		    </div>
+
+		    <div class="col-1-4" id="sidebar">
+		    	<canvas id="cam-view"></canvas>
+		    </div>
+		</row>
+	</div>
 
 </body>
 </html>
