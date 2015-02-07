@@ -4,6 +4,10 @@ var tracker = require('./tracker');
 
 function onTrackerSuccess() {
     console.log('got tracking!');
+    setTimeout(function() {
+        console.log(tracker.getPositions())
+        console.log(tracker.getScore())
+    }, 1000);
 }
 
 function onTrackerFail(message) {
