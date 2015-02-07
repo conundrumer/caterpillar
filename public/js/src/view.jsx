@@ -6,11 +6,13 @@ var Player = React.createClass({
         var rotation = this.props.heading + Math.PI/2;
         var transformStyle = 'translateX('+this.props.position.x+'px) translateY('+this.props.position.y+'px) rotate('+rotation+'rad)';
         var style = {
-            position: 'absolute',
-            top: 0,
-            left: 0,
             transform: transformStyle,
-            webkitTransform: transformStyle
+            webkitTransform: transformStyle,
+            position: 'absolute',
+            top: -20, // height: 40
+            left: -15, // width: 30
+            transition: 'transform 0.1s linear',
+            webkitTransition: '-webkit-transform 0.1s linear',
         }
         return (
             <div style={style}>
@@ -29,6 +31,19 @@ var Hole = React.createClass({
         }
         return (
             <div style={style}>•</div>
+        );
+    }
+})
+
+var Food = React.createClass({
+    render: function() {
+        var style = {
+            position: 'absolute',
+            top: this.props.position.y,
+            left: this.props.position.x
+        }
+        return (
+            <div style={style}>+</div>
         );
     }
 })
@@ -53,6 +68,11 @@ var App = React.createClass({
                         return <Hole key={i} position={hole.position} size={hole.size} />
                     })
                 }
+                {
+                    this.props.foods.map(function(food, i) {
+                        return <Food key={i} position={food.position} size={food.size} />
+                    })
+                }
             </div>
         );
     }
@@ -60,6 +80,6 @@ var App = React.createClass({
 
 module.exports = {
     render: function(props, target) {
-        React.render(<App players={props.players} holes={props.holes}/>, target);
+        React.render(<App players={props.players} holes={props.holes} foods={props.foods}/>, target);
     }
 }

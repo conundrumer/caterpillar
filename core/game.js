@@ -1,7 +1,16 @@
+_ = require('underscore');
+
 var WIDTH = 500;
 var HEIGHT = 500;
 // var SUBDIVISIONS = 10;
 var HOLE_MAX_SIZE = 11;
+
+var FOOD_SIZE = 11;
+var DEFAULT_FOOD_AMOUNT = 4;
+var NUM_FOOD = 4;
+var FOOD_RADIUS = 20;
+
+var PLAYER_RADIUS = 20;
 
 function dist(p1, p2) {
     var x = p1.x - p2.x;
@@ -21,13 +30,28 @@ function Player() {
 
 Player.prototype = {
     turn: function (rotation) {
-        this.heading = (this.heading + rotation)%(2*Math.PI);
+        this.heading = this.heading + rotation;
     },
     step: function(stride) {
         x = this.position.x + stride*Math.cos(this.heading);
         y = this.position.y + stride*Math.sin(this.heading);
-        x = (x+WIDTH)%WIDTH;
-        y = (y+HEIGHT)%HEIGHT;
+        _.values(players).forEach(function(other) {
+            if (this === other) return;
+            var distance = dist({x: x, y: y}, other.position);
+            if (distance < 2*PLAYER_RADIUS) {
+                var overlap = PLAYER_RADIUS - distance/2;
+                var dx = (other.position.x - x) * overlap / distance;
+                var dy = (other.position.y - y) * overlap / distance;
+                other.position.x += dx;
+                other.position.y += dy;
+                other.position.x = Math.max(PLAYER_RADIUS, Math.min(WIDTH-PLAYER_RADIUS,other.position.x));
+                other.position.y = Math.max(PLAYER_RADIUS, Math.min(HEIGHT-PLAYER_RADIUS, other.position.y));
+                x -= dx;
+                y -= dy;
+            }
+        }.bind(this));
+        x = Math.max(PLAYER_RADIUS, Math.min(WIDTH-PLAYER_RADIUS,x));
+        y = Math.max(PLAYER_RADIUS, Math.min(HEIGHT-PLAYER_RADIUS, y));
         this.position = {
             x: x,
             y: y
@@ -48,13 +72,37 @@ Hole.prototype.enlargen = function(amount) {
     return this.size - oldSize;
 }
 
+function Food() {
+    this.position = {
+        x: WIDTH * Math.random(),
+        y: HEIGHT * Math.random()
+    }
+    this.size = DEFAULT_FOOD_AMOUNT;
+}
+
+Food.prototype.getConsumed = function(amount) {
+    var oldSize = this.size;
+    this.size = Math.max(0, this.size - amount);
+    return oldSize - this.size;
+}
+
 var players = {};
 
 var holes = [];
+var foods = [];
+for (var i = 0; i < NUM_FOOD; i++) {
+    foods.push(new Food());
+}
 
 function getTouchingHole(position) {
     return holes.filter(function(hole) {
         return dist(position, hole.position) < hole.size;
+    })[0];
+}
+
+function getFood(position) {
+    return foods.filter(function(food) {
+        return dist(position, food.position) < FOOD_RADIUS;
     })[0];
 }
 
@@ -89,11 +137,22 @@ var game = {
     eat: function(uuid, intensity) {
         var player = players[uuid];
         var amount = intensity;
-        var hole = getHole(player.position);
-        if (!hole) {
-            hole = makeHole(player.position);
+        // var hole = getHole(player.position);
+        // if (!hole) {
+        //     hole = makeHole(player.position);
+        // }
+        // players[uuid].eat(hole.enlargen(amount));
+        var food = getFood(player.position);
+        if (food) {
+            players[uuid].eat(food.getConsumed(amount));
+            if (food.size === 0) {
+                var index = foods.indexOf(food);
+                if (index > -1) {
+                    foods.splice(index, 1);
+                    foods.push(new Food());
+                }
+            }
         }
-        players[uuid].eat(hole.enlargen(amount));
     },
     setImg: function(uuid, img) {
         players[uuid].img = img;
@@ -106,6 +165,9 @@ var game = {
     },
     getHoles: function() {
         return holes;
+    },
+    getFoods: function() {
+        return foods;
     }
 }
 
