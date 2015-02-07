@@ -32,12 +32,22 @@ a {
     color: #000;
 }
 
+.food-intake-tr {
+    // margin-top: 20px;
+}
+
+.food-intake-name {
+    width: 110px;
+    display: inline-block;
+}
+
 progress {
     // margin: 50px auto;
     // display: block;
     /* Important Thing */
     -webkit-appearance: none;
     border: none;
+    width: calc(100% - 130px);
 }
 
 progress::-webkit-progress-bar {
@@ -54,7 +64,7 @@ progress::-webkit-progress-value {
         -webkit-linear-gradient(45deg, transparent, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%),
         -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
         -webkit-linear-gradient(left, #2D8AC4, #77C0ED);
-    
+
     /* Looks great, now animating it */
     background-size: 25px 14px, 100% 100%, 100% 100%;
     -webkit-animation: move 5s linear 0 infinite;
@@ -178,6 +188,7 @@ td {
 #container {
     position : relative;
     width : 370px;
+    margin-bottom: 20px;
     /*margin : 0px auto;*/
 }
 
