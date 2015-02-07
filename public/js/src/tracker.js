@@ -1,6 +1,6 @@
 // globals: clm, pModel, requestAnimFrame
 
-var init = function() {
+var init = function(success, fail) {
 
     var vid = document.getElementById('videoel');
     var overlay = document.getElementById('overlay');
@@ -10,6 +10,7 @@ var init = function() {
     ctrack.init(pModel);
 
     function enablestart() {
+        success();
         // var startbutton = document.getElementById('startbutton');
         // startbutton.value = "start";
         // startbutton.disabled = null;
@@ -43,13 +44,15 @@ var init = function() {
             // insertAltVideo(vid);
             // document.getElementById('gum').className = "hide";
             // document.getElementById('nogum').className = "nohide";
-            alert("There was some problem trying to fetch video from your webcam");
+            // alert("There was some problem trying to fetch video from your webcam");
+            fail("There was some problem trying to fetch video from your webcam");
         });
     } else {
         // insertAltVideo(vid);
         // document.getElementById('gum').className = "hide";
         // document.getElementById('nogum').className = "nohide";
-        alert("Your browser does not seem to support getUserMedia");
+        // alert("Your browser does not seem to support getUserMedia");
+        fail("Your browser does not seem to support getUserMedia");
     }
 
     vid.addEventListener('canplay', enablestart, false);

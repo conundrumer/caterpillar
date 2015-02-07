@@ -1,15 +1,23 @@
 var io = require('socket.io-client');
 var store = require('./store');
-var gesture = require('./gesture');
+var tracker = require('./tracker');
+
+function onTrackerSuccess() {
+    console.log('got tracking!');
+}
+
+function onTrackerFail(message) {
+    console.log('failed to get tracking!', message);
+}
 
 window.onload = function() {
     console.log('hey there!!');
-    gesture.onUpdate = function(data) {
+    tracker.onUpdate = function(data) {
         console.log(data);
     }
-    gesture.init();
+    tracker.init(onTrackerSuccess, onTrackerFail);
 };
 
 store.onChange = function(data) {
-    console.log(data[0].id, data[0].position, data[0].heading);
+    // console.log(data[0].id, data[0].position, data[0].heading);
 }
