@@ -13,43 +13,34 @@ var eated = 0;
 var wiggled = 0;
 
 function flasher(data) {
-    // wiggled += data.eyebrows;
-    // $("#wiggle-bar")[0].value = wiggled;
-    wiggleProp = Math.min(Math.max(data.eyebrows*10,0),1);
-    wiggleColor = getColorForPercentage(wiggleProp);
+    var wiggleProp = Math.min(Math.max(data.eyebrows*10,0),1);
+    var wiggleColor = getColorForPercentage(wiggleProp);
     wiggleColor = rgbToHex(wiggleColor[0], wiggleColor[1], wiggleColor[2]);
     $("#wiggle").css("background-color", wiggleColor);  
 
-    // eated += data.mouth;
-    // $("#eated-bar")[0].value = eated;
-    eatedProp = Math.min(Math.max(data.mouth*10,0),1);
-    eatedColor = getColorForPercentage(eatedProp);
+    var eatedProp = Math.min(Math.max(data.mouth*10,0),1);
+    var eatedColor = getColorForPercentage(eatedProp);
     eatedColor = rgbToHex(eatedColor[0], eatedColor[1], eatedColor[2]);
     $("#eated").css("background-color", eatedColor);    
 
     if (data.tilt >= 0) {
-        leftProp = data.tilt;
-        leftColor = getColorForPercentage(leftProp)
+        var leftProp = data.tilt;
+        var leftColor = getColorForPercentage(leftProp)
         leftColor = rgbToHex(leftColor[0], leftColor[1], leftColor[2]);
         $("#left").css("background-color", leftColor);
     }
 
     if (data.tilt <= 0) {
-        rightProp = Math.abs(data.tilt);
-        rightColor = getColorForPercentage(rightProp)
+        var rightProp = Math.abs(data.tilt);
+        var rightColor = getColorForPercentage(rightProp)
         rightColor = rgbToHex(rightColor[0], rightColor[1], rightColor[2]);
         $("#right").css("background-color", rightColor);
     }
 }
 
 function onTrackerSuccess() {
-    // var uuid = generateUUID();
     console.log('got tracking!');
     $("#go-btn")[0].hidden = false;
-    // setTimeout(function() {
-    //     console.log(tracker.getPositions())
-    //     console.log(tracker.getScore())
-    // }, 1000);
     features.setTracker(tracker);
     faceCapture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
         updateCaterpillarFace(data);
@@ -91,7 +82,6 @@ function loadGamePage(callback) {
     $("#go-btn").remove();
     $("#game-canvas").remove();
 
-    // $('#canvas-container').append("<div id='react-container'></div>");
     callback();
 };
 
@@ -102,8 +92,6 @@ function startGame() {
         console.log('connecting');
         socket.on('connect', function() {
             console.log('game session connected');
-            // this.sync = 0;
-            // this.trigger(this.sync);
             socket.emit('init', uuid);
         });
         socket.on('connect_error', function(err) {
@@ -112,13 +100,17 @@ function startGame() {
         socket.on('disconnect', function() {
             console.log('disconnected');
         });
-        gesture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
+
+        // gesture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
+        //     flasher(data);
+        //     socket.emit('gesture', data);
+        // });
+        gesture.cb = function(data) {
             flasher(data);
             socket.emit('gesture', data);
-        });
+        }
 
         faceCapture.cb = function(data) {
-            // console.log('img', data.length)
             socket.emit('face_img', data);
         };
 
