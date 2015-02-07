@@ -62,6 +62,7 @@ io.on('connection', function(socket) {
         });
         socket.on('face_img', function(data) {
             // console.log('received face_img', data.length)
+            game.setImg(uuid, data);
         });
         socket.on('disconnect', function() {
             console.log('disconencted', uuid);

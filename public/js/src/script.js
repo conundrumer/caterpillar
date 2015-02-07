@@ -5,6 +5,7 @@ var features = require ('./features');
 var gesture = require('./gesture');
 var faceCapture = require('./face-capture');
 var generateUUID = require('../../../utils/uuid');
+var view = require('./view.jsx');
 
 var GESTURE_SAMPLE_PERIOD = 200;
 
@@ -52,7 +53,7 @@ function onTrackerSuccess() {
     });
 
     socket.on('state', function(state){
-        console.log('received state');
+        view.render(state,document.getElementById('react-container'));
     });
 }
 

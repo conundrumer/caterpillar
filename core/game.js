@@ -95,7 +95,7 @@ var game = {
         }
         players[uuid].eat(hole.enlargen(amount));
     },
-    setImg: function(img) {
+    setImg: function(uuid, img) {
         players[uuid].img = img;
     },
     getPlayer: function(uuid) {
