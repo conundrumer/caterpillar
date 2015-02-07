@@ -48,13 +48,13 @@ input, select, textarea, button {
 #sidebar {
     min-width: 400px;
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     right: 0;
 }
 
 table {
     border-collapse:separate;
-    border-spacing: 5px;
+    border-spacing: 10px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -79,16 +79,21 @@ table {
     // }
 }
 
+td {
+    height: 30px;
+}
+
 .move {
-    // border-radius: 4px;
-    background-color: #EBA991;
+    width: 70px;
+    border-radius: 4px;
+    // @include transition(background-color 0.2s ease-in-out 0);
+    background-color: rgba(255,255,255,0.3);
     text-align: center;
     padding: 5px;
 }
 
 .how-to {
-    @include transition(background-color 0.2s ease-in-out 0);
-    background-color: #FC8F68;
+    // background-color: white;
     padding: 5px;
 }
 
