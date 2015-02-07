@@ -10,7 +10,8 @@ var gesture = {
         this.mouth = null;
     },
     getScore: function() {
-        return Math.min(1, this.features.tracker.getScore() + 0.1);
+        score = Math.min(1, (this.features.tracker.getScore() - 0.3) / 0.6);
+        return score * score;
     },
     loop: function() {
         if (!this.features.isAvailable()) {
