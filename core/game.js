@@ -26,8 +26,8 @@ Player.prototype = {
     step: function(stride) {
         x = this.position.x + stride*Math.cos(this.heading);
         y = this.position.y + stride*Math.sin(this.heading);
-        x %= WIDTH;
-        y %= HEIGHT;
+        x = (x+WIDTH)%WIDTH;
+        y = (y+HEIGHT)%HEIGHT;
         this.position = {
             x: x,
             y: y

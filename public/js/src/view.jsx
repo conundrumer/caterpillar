@@ -3,13 +3,19 @@ var _ = require('underscore');
 
 var Player = React.createClass({
     render: function() {
+        var rotation = this.props.heading + Math.PI/2;
+        var transformStyle = 'translateX('+this.props.position.x+'px) translateY('+this.props.position.y+'px) rotate('+rotation+'rad)';
         var style = {
             position: 'absolute',
-            top: this.props.position.y,
-            left: this.props.position.x
+            top: 0,
+            left: 0,
+            transform: transformStyle,
+            webkitTransform: transformStyle
         }
         return (
-            <div style={style}>PLAYER</div>
+            <div style={style}>
+                <img style={{borderRadius: 20}}src={this.props.img} />
+            </div>
         );
     }
 })
@@ -22,7 +28,7 @@ var Hole = React.createClass({
             left: this.props.position.x
         }
         return (
-            <div style={style}>HOLE</div>
+            <div style={style}>•</div>
         );
     }
 })

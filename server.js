@@ -29,8 +29,8 @@ app.get('/admin', function(req, res) {
 
 var io = require('socket.io')(server);
 
-var TILT_FACTOR = 0.25;
-var STRIDE_FACTOR = 40;
+var TILT_FACTOR = 0.4;
+var STRIDE_FACTOR = 70;
 var EAT_FACTOR = 30;
 
 io.on('connection', function(socket) {
@@ -53,7 +53,7 @@ io.on('connection', function(socket) {
             var stride = STRIDE_FACTOR * data.eyebrows;
             game.move(uuid, stride);
             if (stride > 0) {
-                game.rotate(uuid, rotation);
+                game.rotate(uuid, -rotation);
             }
             var eatAmount = data.mouth;
             if (eatAmount > 0) {
