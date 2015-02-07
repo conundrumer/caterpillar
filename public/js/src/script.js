@@ -4,10 +4,12 @@ var tracker = require('./tracker');
 var features = require ('./features');
 var gesture = require('./gesture');
 var faceCapture = require('./face-capture');
+var generateUUID = require('../../../utils/uuid');
 
 var GESTURE_SAMPLE_PERIOD = 200;
 
 function onTrackerSuccess() {
+    var uuid = generateUUID();
     console.log('got tracking!');
     // setTimeout(function() {
     //     console.log(tracker.getPositions())
@@ -41,11 +43,17 @@ function onTrackerSuccess() {
         // if (data.mouth > 0) {
         //     console.log('omnomnom', data.mouth);
         // }
-        socket.emit('gesture', data);
+        socket.emit('gesture', {
+            id: uuid,
+            gesture: data
+        });
     });
     faceCapture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
         // console.log('img', data.length)
-        socket.emit('face_img', data);
+        socket.emit('face_img', {
+            id: uuid,
+            img: data
+        });
     });
 
 

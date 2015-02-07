@@ -1,4 +1,5 @@
 var express = require('express');
+// var game = require('./core/game');
 
 // Start the app / server
 
@@ -30,9 +31,9 @@ var io = require('socket.io')(server);
 
 io.on('connection', function(socket) {
     socket.on('gesture', function(data) {
-        console.log ('received gesture')
+        console.log ('received gesture', data.id)
     });
     socket.on('face_img', function(data) {
-        console.log('received face_img', data.length)
+        console.log('received face_img', data.img.length)
     });
 });
