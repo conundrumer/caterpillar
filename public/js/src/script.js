@@ -92,6 +92,8 @@ function loadGamePage(callback) {
 function startGame() {
     $('#go-shadow').addClass('hidden');
     loadGamePage(function() {
+        $('#audio-src')[0].play();
+        // console.log($('#audio-src')[0]);
         var uuid = generateUUID();
         var socket = io.connect();
         console.log('connecting');
