@@ -7,7 +7,7 @@ var HOLE_MAX_SIZE = 11;
 
 var FOOD_SIZE = 11;
 var DEFAULT_FOOD_AMOUNT = 4;
-var NUM_FOOD = 4;
+var NUM_FOOD = 8;
 var FOOD_RADIUS = 20;
 
 var PLAYER_RADIUS = 20;
