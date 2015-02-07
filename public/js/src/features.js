@@ -31,6 +31,9 @@ var features = {
     setTracker: function(tracker) {
         this.tracker = tracker;
     },
+    isAvailable: function() {
+        return !!this.tracker.getPositions();
+    },
     getMouth: function() {
         var pos = this.tracker.getPositions();
         var height = dist(pos[MOUTH.TOP], pos[MOUTH.BOTTOM]);
