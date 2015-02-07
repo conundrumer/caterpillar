@@ -17,12 +17,12 @@ function flasher(data) {
     var wiggleProp = Math.min(Math.max(data.eyebrows*10,0),1);
     var wiggleColor = getColorForPercentage(wiggleProp);
     wiggleColor = rgbToHex(wiggleColor[0], wiggleColor[1], wiggleColor[2]);
-    $("#wiggle").css("background-color", wiggleColor);  
+    $("#wiggle").css("background-color", wiggleColor);
 
     var eatedProp = Math.min(Math.max(data.mouth*10,0),1);
     var eatedColor = getColorForPercentage(eatedProp);
     eatedColor = rgbToHex(eatedColor[0], eatedColor[1], eatedColor[2]);
-    $("#eated").css("background-color", eatedColor);    
+    $("#eated").css("background-color", eatedColor);
 
     if (data.tilt >= 0) {
         var leftProp = data.tilt;
@@ -41,7 +41,7 @@ function flasher(data) {
 
 function onTrackerSuccess() {
     console.log('got tracking!');
-    $("#go-btn")[0].hidden = false;
+    $("#go-shadow")[0].hidden = false;
     features.setTracker(tracker);
     faceCapture.init(features, GESTURE_SAMPLE_PERIOD, function(data) {
         updateCaterpillarFace(data);
@@ -59,7 +59,7 @@ function onTrackerFail(message) {
 function updateCaterpillarFace(data) {
     var props = {
         heading: Math.PI,
-        position: {x:300, y:300},
+        position: {x:200, y:300},
         img: data,
         size: 3
     };
@@ -87,6 +87,7 @@ function loadGamePage(callback) {
 };
 
 function startGame() {
+    $('#go-shadow').addClass('hidden');
     loadGamePage(function() {
         var uuid = generateUUID();
         var socket = io.connect();
@@ -156,7 +157,7 @@ var getColorForPercentage = function(pct) {
     };
     return [color.r, color.g, color.b];
     // or output as hex if preferred
-} 
+}
 
 
 
