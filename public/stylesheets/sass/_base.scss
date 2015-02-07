@@ -9,7 +9,7 @@ html {
 
 body {
     @include transition(background-color 0.2s ease-in-out 0);
-    // margin: 0 auto;
+    padding: 10px;
     // width: 100%;
     // position: relative;
     height: 100%;
@@ -34,6 +34,33 @@ input, select, textarea, button {
     line-height: inherit;
 }
 
+#game-canvas {
+    width: 100%;
+}
+    
+#sidebar {
+    min-width: 400px;
+}
+
+table {
+    border-collapse:separate; 
+    border-spacing:5px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.move {
+    border-radius: 4px;
+    background-color: #68D5FC;
+    text-align: center;
+    padding: 5px;
+}
+
+.how-to {
+    background-color: #FC8F68;
+    padding: 5px;
+}
+
 .grid-container {
     width: 100%;
     min-width: 800px;
@@ -48,15 +75,76 @@ input, select, textarea, button {
 }
 
 .col-1-4 {
-    width: 25%;
+    width: 30%;
     float: right;
     outline: 1px solid;
 }
 
 .col-3-4 {
-    width: 75%;
+    width: 68%;
     float: left;
     outline: 1px solid;
+}
+
+#overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    -o-transform : scaleX(-1);
+    -webkit-transform : scaleX(-1);
+    transform : scaleX(-1);
+    -ms-filter : fliph; /*IE*/
+    filter : fliph; /*IE*/
+}
+
+#videoel {
+    -o-transform : scaleX(-1);
+    -webkit-transform : scaleX(-1);
+    transform : scaleX(-1);
+    -ms-filter : fliph; /*IE*/
+    filter : fliph; /*IE*/
+}
+
+#container {
+    position : relative;
+    width : 370px;
+    /*margin : 0px auto;*/
+}
+
+#content {
+    margin-top : 70px;
+    margin-left : 100px;
+    margin-right : 100px;
+    max-width: 950px;
+}
+
+#sketch {
+    display: block;
+}
+
+#filter {
+    display: none;
+}
+
+h2 {
+    font-weight : 400;
+}
+
+.nogum {
+    display : none;
+}
+
+.btn {
+    font-family: 'Lato';
+    font-size: 16px;
+}
+
+.hide {
+    display : none;
+}
+
+.nohide {
+    display : block;
 }
 
 .clearfix:before,
