@@ -124,6 +124,7 @@ function startGame() {
         socket.on('state', function(state){
             $('#food-bar').val(state.players[uuid].food);
             console.log($('#food-bar').val());
+            // blah
             view.render(state,document.getElementById('react-container'));
         });
     });
